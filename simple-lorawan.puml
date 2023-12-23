@@ -1,0 +1,35 @@
+@startuml LoRaWAN Network Reference
+
+' skinparam componentStyle uml2
+
+' package "end_node" {
+'     component "Sensor" as sensor
+'     component "MCU" as mcu
+'     component "Modem" as modem
+' }
+
+' component "LoRaWAN Network Server" as lns
+
+skinparam backgroundColor PaleSteel
+skinparam component {
+  BackgroundColor<<error>> Red
+  BorderColor Yellow
+  ArrowColor DarkRed
+}
+
+title LoRaWAN Application Reference Model
+
+note left of Device : sensors
+Device --> Gateway
+note left of Gateway : LoRaWAN\nWireless
+note right of Gateway : pkt-fwd\nbackhaul
+Gateway --> "Network Server"
+note right of "Network Server" : de-dup\ndata-fwd
+"Network Server" --> Application
+note left of Application : decrypt\ndecode
+note right of Application : reports\ndashboards\nalerts
+
+footer building the data pipeline...\n2023-12-23 - Austin Voice Data LLC
+' footer Page %page% of %lastpage%
+
+@enduml

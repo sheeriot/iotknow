@@ -1,0 +1,19 @@
+@startuml car
+class Car {
+    - make: String
+    - model: String
+    - year: int
+    + startEngine()
+    + stopEngine()
+    + accelerate(speed: int)
+    + brake()
+}
+
+class Driver {
+    - name: String
+    - age: int
+    + drive(car: Car)
+}
+
+Car --> Driver
+@enduml
