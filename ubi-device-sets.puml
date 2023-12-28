@@ -1,0 +1,20 @@
+@startuml Ubidots Device Sets
+
+skinparam backgroundColor PaleSteel
+skinparam component {
+  BackgroundColor<<error>> Red
+  BorderColor Yellow
+  ArrowColor DarkRed
+}
+
+title Ubidots Device Sets
+
+note left of "Network Server" : tag:\nubidots-siteA-office
+"Network Server" --> Decoder : Post with Tags
+Decoder --> Ubidots : update siteA:office
+note right of Ubidots : siteA:office:temp\nsiteA:office:humidity
+
+footer building the data pipeline...\n2023-12-23 - Austin Voice Data LLC
+' footer Page %page% of %lastpage%
+
+@enduml

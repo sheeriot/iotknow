@@ -20,12 +20,12 @@ skinparam component {
 title LoRaWAN Application Reference Model
 
 note left of Device : sensors
-Device --> Gateway
+Device --> Gateway : LoRa RF
 note left of Gateway : LoRaWAN\nWireless
-note right of Gateway : pkt-fwd\nbackhaul
-Gateway --> "Network Server"
+note right of Gateway : pkt-fwd
+Gateway --> "Network Server" : backhaul/IP
 note right of "Network Server" : de-dup\ndata-fwd
-"Network Server" --> Application
+"Network Server" --> Application : HTTP Post
 note left of Application : decrypt\ndecode
 note right of Application : reports\ndashboards\nalerts
 

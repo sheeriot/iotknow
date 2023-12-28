@@ -1,0 +1,36 @@
+@startuml docker-webapp
+
+title Web App Hosting with Docker
+
+' skinparam componentStyle uml2
+' skinparam classFontColor automatic
+' skinparam classHeaderBackgroundColor #444
+'  skinparam linetype polyline
+' skinparam linetype ortho
+!include <awslib/AWSCommon>
+!include <awslib/AWSSimplified.puml>
+!include <awslib/Compute/all.puml>
+!include <awslib/mobile/all.puml>
+!include <awslib/general/all.puml>
+!include <awslib/GroupIcons/all.puml>
+
+' actor "web client" as client
+Users(users, "Users", " ")
+package "host" as host {
+    package "docker" as docker {
+        component "nginx\nwebproxy" as nginx
+        component "django\nwebapp" as app
+    }
+}
+cloud internet
+
+users -right-> internet
+internet --> host
+host --> nginx
+nginx -right-> app : gunicorn
+
+legend
+<size:8> Rendered with Plantuml Version %version() </size>
+end legend
+
+@enduml
