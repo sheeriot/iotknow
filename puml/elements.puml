@@ -1,0 +1,82 @@
+@startuml elements
+
+' left to right direction
+
+
+
+
+boundary boundary
+entity entity
+file file
+folder folder
+frame frame
+hexagon hexagon
+interface interface
+label label
+node node {
+    :actor2:
+    :actor1:
+}
+person person
+queue queue
+rectangle rectangle
+stack stack
+storage storage
+usecase usecase
+actor actor
+agent agent
+circle circle
+cloud cloud
+collections collections
+control control
+artifact artifact {
+    (use1)
+    (use2)
+}
+card card {
+    () recipes
+    () contacts
+}
+component component {
+    package packageB {
+        [part4]
+        [part3]
+    }
+    package packageA {
+        [part2]
+        [part1]
+    }
+}
+
+database database #lightgreen;line:red;line.dashed;text:green {
+    frame shard1 {
+        [old]
+        [new]
+    }
+} 
+
+node -d-> artifact
+artifact -d-> card
+card -d-> component
+component -d-> database
+storage -d-> boundary
+boundary -d-> actor
+actor -d-> entity
+entity -d-> file
+file -d-> folder
+folder -d-> frame
+frame -d-> hexagon
+hexagon -d-> interface
+interface -d-> collections
+collections -r-> agent
+agent -u-> circle
+circle -u-> cloud
+cloud -u-> control
+control -u-> label
+label -u-> person
+person -u-> queue
+queue -u-> rectangle
+rectangle -u-> stack
+stack -u-> usecase
+
+@enduml

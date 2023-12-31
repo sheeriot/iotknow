@@ -1,0 +1,20 @@
+@startuml azure
+
+!include <C4/C4_Container>
+
+!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/release/2-2/dist
+!include AzurePuml/AzureCommon.puml
+!includeurl AzurePuml/AzureSimplified.puml
+!include AzurePuml/Databases/all.puml
+!include AzurePuml/Compute/all.puml
+!include AzurePuml/AIMachineLearning/all.puml
+
+AzureBotService(student, "Student", "") #LightSeaGreen
+AzureCognitiveServices(brain, "Brain", "") #LightSteelBlue
+AzureMachineLearningStudio(learn, "Learn", "") #Gold
+
+student -l-> learn
+learn -r-> brain
+brain -d-> student
+
+@enduml

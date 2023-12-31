@@ -1,0 +1,27 @@
+@startuml nameit
+!include <C4/C4_Container>
+
+Person(personAlias, "Label", "Optional Description")
+Container(containerAlias, "Label", "Technology", "Optional Description")
+System(systemAlias, "Label", "Optional Description") {
+    [Component3]
+}
+artifact artifact
+database database
+queue queue
+control control
+boundary boundary
+entity entity
+collections collections
+folder folder
+frame frame
+node node
+
+
+
+
+Rel(personAlias, containerAlias, "Label", "Optional Technology")
+[blah]
+
+
+@enduml

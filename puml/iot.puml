@@ -1,0 +1,23 @@
+@startuml iotpumlone
+
+!define AWSPuml https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/v17.0/dist
+!include AWSPuml/AWSCommon.puml
+!include AWSPuml/InternetOfThings/IoTRule.puml
+!include AWSPuml/Analytics/KinesisDataStreams.puml
+!include AWSPuml/ApplicationIntegration/SimpleQueueService.puml
+
+left to right direction
+
+agent "Published Event" as event
+
+IoTRule(iotRule, "Action Error Rule", "error if Kinesis fails")
+
+KinesisDataStreams(eventStream, "IoT Events", "2 shards")
+SimpleQueueService(errorQueue, "Rule Error Queue", "failed Rule actions")
+
+event --> iotRule : JSON message
+iotRule --> eventStream : messages
+iotRule --> errorQueue : Failed action message
+
+@enduml
+

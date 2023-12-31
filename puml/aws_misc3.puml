@@ -1,0 +1,22 @@
+@startuml Hello World
+' Uncomment the line below for "dark mode" styling
+'!$AWS_DARK = true
+
+!define AWSPuml https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/v17.0/dist
+!include AWSPuml/AWSCommon.puml
+!include AWSPuml/AWSSimplified.puml
+!include AWSPuml/BusinessApplications/all.puml
+!include AWSPuml/Storage/SimpleStorageService.puml
+
+actor "user" as user
+WorkDocs(desktop, "Desktop", "Component", "a place to execute code")
+SimpleStorageService(storage, "Storage", "Component", "save it here")
+cloud cloud
+
+user -r-> desktop
+desktop -u-> cloud
+cloud -r-> storage
+
+footer made with PlantUML %version()
+
+@enduml

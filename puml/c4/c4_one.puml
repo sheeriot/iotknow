@@ -1,0 +1,11 @@
+@startuml C4_Elements
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+Person(bob, "bob", "Optional Description")
+Container(containerAlias, "Label", "Technology", "Optional Description")
+System(systemAlias, "Label", "Optional Description")
+
+Rel(bob, containerAlias, "Label", "Optional Technology")
+
+Rel(containerAlias, systemAlias, "Label", "Optional Technology")
+@enduml

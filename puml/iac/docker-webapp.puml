@@ -9,28 +9,34 @@ title Web App Hosting with Docker
 ' skinparam linetype ortho
 !include <awslib/AWSCommon>
 !include <awslib/AWSSimplified.puml>
-!include <awslib/Compute/all.puml>
-!include <awslib/mobile/all.puml>
+' !include <awslib/Compute/all.puml>
+' !include <awslib/mobile/all.puml>
 !include <awslib/general/all.puml>
-!include <awslib/GroupIcons/all.puml>
+' !include <awslib/GroupIcons/all.puml>
 
 ' actor "web client" as client
 Users(users, "Users", " ")
-package "host" as host {
-    package "docker" as docker {
+frame "linux host" as host {
+    package "docker engine" as docker {
         component "nginx\nwebproxy" as nginx
         component "django\nwebapp" as app
     }
 }
 cloud internet
 
-users -right-> internet
-internet --> host
-host --> nginx
-nginx -right-> app : gunicorn
+users -u-> internet
+internet -r-> host
+host -l-> nginx
+note right of nginx
+    nginx is configured to terminate https and proxy requests to the webapp
+end note
+nginx -d-> app : gunicorn
+note right of app
+    django is programmed to deliver business applications
+end note
 
 legend
-<size:8> Rendered with Plantuml Version %version() </size>
+<size:8> Austin Voice Data LLC - 2023-12-29 </size>
 end legend
 
 @enduml

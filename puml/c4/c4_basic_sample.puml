@@ -1,0 +1,15 @@
+@startuml Basic Sample
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+Person(user, "Surveyor", $sprite="person2", $link="https://github.com/plantuml-stdlib/C4-PlantUML/blob/master/LayoutOptions.md#hide_person_sprite-or-show_person_spritesprite")
+System_Boundary(c1, "Linux VM", $link="https://github.com/plantuml-stdlib/C4-PlantUML") {
+    Container(nginx_web, "Web Proxy", "NGINX", $descr="Terminate SSL and Proxy to Gunicorn/Django", $link="https://github.com/plantuml-stdlib/C4-PlantUML/blob/master/LayoutOptions.md")
+    Container(django_app, "Django App", "RF Field Surveyor", $descr="Surveyor", $link="https://github.com/plantuml-stdlib/C4-PlantUML/blob/master/LayoutOptions.md")
+}
+System(influxdb, "InfluxDB", $link="https://influxdb.org")
+
+Rel(user, nginx_web, "surveyor.everynet.com", "HTTPS", $link="https://surveyor.everynet.com")
+Rel(nginx_web, django_app, "Proxy", "HTTP:8080")
+' Rel(django_app, devhost, "Gets tweets from", "HTTPS", $link="https://plantuml.com/link")
+Rel(django_app, influxdb, "Read", "query", $link="https://cloud2.influxdata.com/")
+@enduml

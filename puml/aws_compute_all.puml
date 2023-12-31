@@ -1,0 +1,32 @@
+@startuml iotpumlone
+
+!define AWSPuml https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/v17.0/dist
+!include AWSPuml/AWSCommon.puml
+!include AWSPuml/AWSSimplified.puml
+!include AWSPuml/InternetOfThings/IoTRule.puml
+!include AWSPuml/Analytics/KinesisDataStreams.puml
+!include AWSPuml/ApplicationIntegration/SimpleQueueService.puml
+!include AWSPuml/Compute/all.puml
+
+title IoT Rule
+
+' left to right direction
+
+EC2(ec2, "EC2 Instance", "Elastic Compute Cloud")
+EC2ElasticIPAddress(ip_addr, "Elastic IP", "IP Address")  
+ComputeOptimizer(computeOpt, "Compute Optimizer", "EC2 Instance Recommendations")
+
+agent "Published Event" as event
+
+IoTRule(iotRule, "Action Error Rule", "error if Kinesis fails")
+
+KinesisDataStreams(eventStream, "IoT Events", "2 shards", "fat head")
+SimpleQueueService(errorQueue, "Rule Error Queue", "failed Rule actions")
+
+ec2 - ip_addr 
+
+event --> iotRule : - JSON message\n- MQTT Topic\n- QoS
+iotRule --> eventStream : messages
+iotRule --> errorQueue : Failed action message
+
+@enduml

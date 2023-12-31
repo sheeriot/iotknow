@@ -1,0 +1,26 @@
+@startuml namehere
+
+!include <awslib/AWSCommon>
+!include <awslib/AWSSimplified.puml>
+!include <awslib/Compute/all.puml>
+!include <awslib/mobile/all.puml>
+!include <awslib/general/all.puml>
+!include <awslib/GroupIcons/all.puml>
+
+Toolkit(tools,"Tools"," ")
+SDK(sdk,"SDK", " ")
+Cloud(cl,"CL"," ")
+Client(client,"Client"," ")
+Disk(disk,"Disk"," ")
+Forums(forums,"Forums"," ")
+' MobileClient(mobile,"Mobile Client"," ")
+' Mobile(mobile,"Mobile"," ")
+' InternetGateway(igw,"Internet Gateway"," ")
+' SAMLToken(saml,"SAML Token"," ")
+
+' Connect(connect,"Connect"," ")
+
+tools -r-> sdk : implement
+
+
+@enduml
