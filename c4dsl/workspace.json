@@ -1,0 +1,375 @@
+{
+  "id" : 1,
+  "name" : "Name",
+  "description" : "Description",
+  "lastModifiedDate" : "2023-12-31T17:33:50Z",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CiAgICAgICAgIyBvcGVyYXRvciA9IHBlcnNvbiAiZmllbGRfdGVjaCIKICAgICAgICAjIHN1cnZleW9yID0gc29mdHdhcmVTeXN0ZW0gInN1cnZleW9yIgogICAgICAgIGRldmljZSA9IHNvZnR3YXJlU3lzdGVtICJMb1JhV0FOIERldmljZSIKICAgICAgICBnYXRld2F5ID0gc29mdHdhcmVTeXN0ZW0gIkxvUmFXQU4gR2F0ZXdheSIgIlJGIENvdmVyYWdlIgogICAgICAgIHJhbiA9IHNvZnR3YXJlU3lzdGVtICJSYWRpbyBBY2Nlc3MgTmV0d29yayIKICAgICAgICBuZXR3b3Jrc2VydmVyID0gc29mdHdhcmVTeXN0ZW0gIk5ldHdvcmsgU2VydmVyIiAiZGV2aWNlIG1hbmFnZW1lbnQsIGRlLWR1cCIKICAgICAgICBhcHBsaWNhdGlvbiA9IHNvZnR3YXJlU3lzdGVtICJBcHBsaWNhdGlvbiBTZXJ2ZXIiICJkZWNyeXB0LCBkZWNvZGUsIGRpcmVjdCIKICAgICAgICBqb2luc2VydmVyID0gc29mdHdhcmVTeXN0ZW0gIkpvaW4gU2VydmVyIiAiZGV2aWNlIGF1dGhlbnRpY2F0aW9uIiBqb2luX3NlcnZlcgogICAgICAgIHN0b3JhZ2UgPSBzb2Z0d2FyZVN5c3RlbSAiSW5mbHV4REIiICJkZXZpY2UgZGF0YSIgc3RvcmFnZQogICAgICAgIHN1cnZleW9yID0gc29mdHdhcmVTeXN0ZW0gIlJGIEZpZWxkIFN1cnZleW9yIiAiRGphbmdvIFdlYiBBcHAiIHN1cnZleW9yCiAgICAgICAgb3BlcmF0b3IgPSBwZXJzb24gT3BlcmF0b3IgInJldmlldyBtYWNybyBwZXJmb3JtYW5jZSIgb3BlcmF0b3IKICAgICAgICBmaWVsZHRlY2ggPSBwZXJzb24gIkZpZWxkIFRlY2huaWNpYW4iICJyZXZpZXcgbWljcm8gcGVyZm9ybWFuY2UiIGZpZWxkX3RlY2gKCiAgICAgICAgZGV2aWNlIC0+IGdhdGV3YXkgIlVwbGlua3MiCiAgICAgICAgcmFuIC0+IGdhdGV3YXkgIm1hbmFnZXMiCiAgICAgICAgZ2F0ZXdheSAtPiBuZXR3b3Jrc2VydmVyICJ1cGxpbmtzIgogICAgICAgIG5ldHdvcmtzZXJ2ZXIgLT4gYXBwbGljYXRpb24gInVwbGlua3MiCiAgICAgICAgbmV0d29ya3NlcnZlciAtPiBqb2luc2VydmVyICJqb2luIHJlcXVlc3QiCiAgICAgICAgam9pbnNlcnZlciAtPiBuZXR3b3Jrc2VydmVyICJqb2luIGFjY2VwdCIKICAgICAgICBhcHBsaWNhdGlvbiAtPiBuZXR3b3Jrc2VydmVyICJkb3dubGlua3MiCiAgICAgICAgYXBwbGljYXRpb24gLT4gc3RvcmFnZSAid3JpdGUiCiAgICAgICAgbmV0d29ya3NlcnZlciAtPiBnYXRld2F5ICJkb3dubGlua3MiCiAgICAgICAgZ2F0ZXdheSAtPiBkZXZpY2UgImRvd25saW5rcyIKICAgICAgICBzdXJ2ZXlvciAtPiBzdG9yYWdlICJyZWFkIgogICAgICAgIG9wZXJhdG9yIC0+IHN1cnZleW9yICJ2aWV3IgogICAgICAgIGZpZWxkdGVjaCAtPiBzdXJ2ZXlvciAidmlldyIKICAgIH0KCiAgICB2aWV3cyB7CgogICAgICAgIHN5c3RlbWxhbmRzY2FwZSBldmVyeXRoaW5nICJBbGwgU3lzdGVtcyIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICB9CiAgICAgICAgc3R5bGVzIHsKICAgICAgICAgICAgZWxlbWVudCBvcGVyYXRvciB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICMwODQyN2IKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgICAgIGZvbnRTaXplIDIyCiAgICAgICAgICAgICAgICBzaGFwZSBQZXJzb24KICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50IGZpZWxkX3RlY2ggewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCBwdXJwbGUKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgICAgIGZvbnRTaXplIDIyCiAgICAgICAgICAgICAgICBzaGFwZSBQZXJzb24KICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50IHN0b3JhZ2UgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjOTk5OTk5CiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgICAgICBmb250U2l6ZSAyMgogICAgICAgICAgICAgICAgc2hhcGUgQ3lsaW5kZXIKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50IHN1cnZleW9yIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgZ3JlZW4KICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgICAgIGZvbnRTaXplIDM2CiAgICAgICAgICAgICAgICBzaGFwZSBXZWJCcm93c2VyCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CiAgICBjb25maWd1cmF0aW9uIHsKICAgICAgICBzY29wZSBsYW5kc2NhcGUKICAgIH0KCn0K"
+  },
+  "configuration" : {
+    "scope" : "Landscape"
+  },
+  "model" : {
+    "people" : [ {
+      "id" : "9",
+      "tags" : "Element,Person,operator",
+      "properties" : {
+        "structurizr.dsl.identifier" : "operator"
+      },
+      "name" : "Operator",
+      "description" : "review macro performance",
+      "relationships" : [ {
+        "id" : "22",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "fa6ddb4e-ebcf-4142-b4ac-2ecac8ef4a75"
+        },
+        "sourceId" : "9",
+        "destinationId" : "8",
+        "description" : "view"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "10",
+      "tags" : "Element,Person,field_tech",
+      "properties" : {
+        "structurizr.dsl.identifier" : "fieldtech"
+      },
+      "name" : "Field Technician",
+      "description" : "review micro performance",
+      "relationships" : [ {
+        "id" : "23",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "0fa2c826-63d7-4f65-bf0d-18c2693a88a3"
+        },
+        "sourceId" : "10",
+        "destinationId" : "8",
+        "description" : "view"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "1",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "device"
+      },
+      "name" : "LoRaWAN Device",
+      "relationships" : [ {
+        "id" : "11",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "5b127ee7-1040-440c-80c0-6c0220644ea4"
+        },
+        "sourceId" : "1",
+        "destinationId" : "2",
+        "description" : "Uplinks"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "2",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "gateway"
+      },
+      "name" : "LoRaWAN Gateway",
+      "description" : "RF Coverage",
+      "relationships" : [ {
+        "id" : "13",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "297cc210-f4fb-4580-83be-6aa592f1ca65"
+        },
+        "sourceId" : "2",
+        "destinationId" : "4",
+        "description" : "uplinks"
+      }, {
+        "id" : "20",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "3c7f2c42-cc57-46f4-abce-f6d8ebd6a69e"
+        },
+        "sourceId" : "2",
+        "destinationId" : "1",
+        "description" : "downlinks"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "3",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "ran"
+      },
+      "name" : "Radio Access Network",
+      "relationships" : [ {
+        "id" : "12",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "5bda53b3-751e-4001-912c-96258b63013d"
+        },
+        "sourceId" : "3",
+        "destinationId" : "2",
+        "description" : "manages"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "4",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "networkserver"
+      },
+      "name" : "Network Server",
+      "description" : "device management, de-dup",
+      "relationships" : [ {
+        "id" : "14",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "4af23778-af5d-4c66-ae2a-9f60925f081c"
+        },
+        "sourceId" : "4",
+        "destinationId" : "5",
+        "description" : "uplinks"
+      }, {
+        "id" : "15",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "07664b37-4c05-42bf-b240-a92ad42c089f"
+        },
+        "sourceId" : "4",
+        "destinationId" : "6",
+        "description" : "join request"
+      }, {
+        "id" : "19",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "e77b9a22-ba6a-4df5-91b0-9c3cf95da8e4"
+        },
+        "sourceId" : "4",
+        "destinationId" : "2",
+        "description" : "downlinks"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "5",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "application"
+      },
+      "name" : "Application Server",
+      "description" : "decrypt, decode, direct",
+      "relationships" : [ {
+        "id" : "17",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "f3a66f36-1dfe-4991-81d0-1fe90df7e585"
+        },
+        "sourceId" : "5",
+        "destinationId" : "4",
+        "description" : "downlinks"
+      }, {
+        "id" : "18",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "f4f37c58-3760-4700-bb5f-11bec76c9246"
+        },
+        "sourceId" : "5",
+        "destinationId" : "7",
+        "description" : "write"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "6",
+      "tags" : "Element,Software System,join_server",
+      "properties" : {
+        "structurizr.dsl.identifier" : "joinserver"
+      },
+      "name" : "Join Server",
+      "description" : "device authentication",
+      "relationships" : [ {
+        "id" : "16",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "292472fa-fe7c-4525-b907-c28465aa8a4e"
+        },
+        "sourceId" : "6",
+        "destinationId" : "4",
+        "description" : "join accept"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "7",
+      "tags" : "Element,Software System,storage",
+      "properties" : {
+        "structurizr.dsl.identifier" : "storage"
+      },
+      "name" : "InfluxDB",
+      "description" : "device data",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "8",
+      "tags" : "Element,Software System,surveyor",
+      "properties" : {
+        "structurizr.dsl.identifier" : "surveyor"
+      },
+      "name" : "RF Field Surveyor",
+      "description" : "Django Web App",
+      "relationships" : [ {
+        "id" : "21",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "71666885-f276-4ad0-9f89-8d0ce088a59b"
+        },
+        "sourceId" : "8",
+        "destinationId" : "7",
+        "description" : "read"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemLandscapeViews" : [ {
+      "key" : "everything",
+      "order" : 1,
+      "description" : "All Systems",
+      "dimensions" : {
+        "width" : 3577,
+        "height" : 2025
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 200,
+        "y" : 200
+      }, {
+        "id" : "2",
+        "x" : 928,
+        "y" : 211
+      }, {
+        "id" : "3",
+        "x" : 946,
+        "y" : 731
+      }, {
+        "id" : "4",
+        "x" : 1663,
+        "y" : 241
+      }, {
+        "id" : "5",
+        "x" : 2543,
+        "y" : 246
+      }, {
+        "id" : "6",
+        "x" : 1666,
+        "y" : 736
+      }, {
+        "id" : "7",
+        "x" : 2517,
+        "y" : 650
+      }, {
+        "id" : "8",
+        "x" : 2487,
+        "y" : 1055
+      }, {
+        "id" : "9",
+        "x" : 2145,
+        "y" : 1520
+      }, {
+        "id" : "10",
+        "x" : 2875,
+        "y" : 1530
+      } ],
+      "relationships" : [ {
+        "id" : "21"
+      }, {
+        "id" : "20",
+        "vertices" : [ {
+          "x" : 776,
+          "y" : 406
+        } ]
+      }, {
+        "id" : "18"
+      }, {
+        "id" : "17",
+        "vertices" : [ {
+          "x" : 2301,
+          "y" : 321
+        } ]
+      }, {
+        "id" : "16",
+        "vertices" : [ {
+          "x" : 2039,
+          "y" : 637
+        } ]
+      }, {
+        "id" : "15",
+        "vertices" : [ {
+          "x" : 1739,
+          "y" : 639
+        } ]
+      }, {
+        "id" : "14"
+      }, {
+        "id" : "13"
+      }, {
+        "id" : "11",
+        "vertices" : [ {
+          "x" : 791,
+          "y" : 316
+        } ]
+      }, {
+        "id" : "12"
+      }, {
+        "id" : "23"
+      }, {
+        "id" : "22"
+      }, {
+        "id" : "19",
+        "vertices" : [ {
+          "x" : 1491,
+          "y" : 441
+        } ]
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "operator",
+          "background" : "#08427b",
+          "color" : "#ffffff",
+          "fontSize" : 22,
+          "shape" : "Person"
+        }, {
+          "tag" : "field_tech",
+          "background" : "#800080",
+          "color" : "#ffffff",
+          "fontSize" : 22,
+          "shape" : "Person"
+        }, {
+          "tag" : "storage",
+          "background" : "#999999",
+          "color" : "#ffffff",
+          "fontSize" : 22,
+          "shape" : "Cylinder"
+        }, {
+          "tag" : "surveyor",
+          "background" : "#008000",
+          "color" : "#ffffff",
+          "fontSize" : 36,
+          "shape" : "WebBrowser"
+        } ]
+      },
+      "terminology" : { },
+      "lastSavedView" : "everything"
+    }
+  }
+}
