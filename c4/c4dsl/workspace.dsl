@@ -14,19 +14,19 @@ workspace {
         operator = person Operator "review macro performance" operator
         fieldtech = person "Field Technician" "review micro performance" field_tech
 
-        # device -> gateway "Uplinks"
-        # ran -> gateway "manages"
-        # gateway -> networkserver "uplinks"
-        # networkserver -> application "uplinks"
-        # networkserver -> joinserver "join request"
-        # joinserver -> networkserver "join accept"
-        # application -> networkserver "downlinks"
-        # application -> storage "write"
-        # networkserver -> gateway "downlinks"
-        # gateway -> device "downlinks"
-        # surveyor -> storage "read"
-        # operator -> surveyor "view"
-        # fieldtech -> surveyor "view"
+        device -> gateway "Uplinks"
+        ran -> gateway "manages"
+        gateway -> networkserver "uplinks"
+        networkserver -> application "uplinks"
+        networkserver -> joinserver "join request"
+        joinserver -> networkserver "join accept"
+        application -> networkserver "downlinks"
+        application -> storage "write"
+        networkserver -> gateway "downlinks"
+        gateway -> device "downlinks"
+        surveyor -> storage "read"
+        operator -> surveyor "view"
+        fieldtech -> surveyor "view"
     }
 
     views {

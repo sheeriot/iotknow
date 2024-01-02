@@ -1,0 +1,751 @@
+{
+  "id" : 1,
+  "name" : "Name",
+  "description" : "Description",
+  "lastModifiedDate" : "2024-01-02T23:55:41Z",
+  "lastModifiedAgent" : "structurizr-javascript",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CiAgICAgICAgIyBvcGVyYXRvciA9IHBlcnNvbiAiZmllbGRfdGVjaCIKICAgICAgICAjIHN1cnZleW9yID0gc29mdHdhcmVTeXN0ZW0gInN1cnZleW9yIgogICAgICAgIGRldmljZSA9IHNvZnR3YXJlU3lzdGVtICJMb1JhV0FOIERldmljZSIgIndpdGggc2Vuc29ycyIgZGV2aWNlCiAgICAgICAgZ2F0ZXdheSA9IHNvZnR3YXJlU3lzdGVtICJMb1JhV0FOIEdhdGV3YXkiICJSRiBDb3ZlcmFnZSIgZ2F0ZXdheQogICAgICAgIHJhbiA9IHNvZnR3YXJlU3lzdGVtICJSYWRpbyBBY2Nlc3MgTmV0d29yayIKICAgICAgICBuZXR3b3Jrc2VydmVyID0gc29mdHdhcmVTeXN0ZW0gIk5ldHdvcmsgU2VydmVyIiAiICIgewogICAgICAgICAgICBucyA9IGNvbnRhaW5lciBOUyAiZGV2aWNlIG1hbmFnZW1lbnQsIGRlLWR1cCIgTG9SYVdBTiBucwogICAgICAgICAgICBqb2luc2VydmVyID0gY29udGFpbmVyIGpvaW5zZXJ2ZXIgImRldmljZSBhdXRoZW50aWNhdGlvbiIgTG9SYVdBTiBqb2luc2VydmVyCiAgICAgICAgfQogICAgICAgIGFwcHNlcnZlciA9IHNvZnR3YXJlU3lzdGVtICJBcHBsaWNhdGlvbiBTZXJ2ZXIiICJkZWNyeXB0LCBkZWNvZGUsIGRpcmVjdCIgYXBwc2VydmVyCgogICAgICAgIGluZmx1eGRiID0gc29mdHdhcmVTeXN0ZW0gIkluZmx1eERCIiAidGltZS1zZXJpZXMgZGF0YWJhc2UiIGluZmx1eGRiCiAgICAgICAgc3VydmV5b3IgPSBzb2Z0d2FyZVN5c3RlbSAiUkYgRmllbGQgU3VydmV5b3IiICJEamFuZ28gV2ViIEFwcCIgc3VydmV5b3IgewogICAgICAgICAgICBuZ2lueCA9IGNvbnRhaW5lciBuZ2lueCAid2ViIHNlcnZlciIgd2ViIG5naW54CiAgICAgICAgICAgIHN1cnZleW9yZGIgPSBjb250YWluZXIgc3FsaXRlMyAiZGF0YWJhc2UiIHN1cnZleW9yZGIKICAgICAgICAgICAgZGphbmdvYXBwID0gY29udGFpbmVyIGRqYW5nb2FwcCAiZGphbmdvIGFwcCIgZGphbmdvYXBwIGRqYW5nb2FwcCB7CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIG9wZXJhdG9yID0gcGVyc29uIE9wZXJhdG9yICJyZXZpZXcgbWFjcm8gcGVyZm9ybWFuY2UiIG9wZXJhdG9yCiAgICAgICAgZmllbGR0ZWNoID0gcGVyc29uICJGaWVsZCBUZWNobmljaWFuIiAicmV2aWV3IG1pY3JvIHBlcmZvcm1hbmNlIiBmaWVsZF90ZWNoCgogICAgICAgIGRldmljZSAtPiBnYXRld2F5IHVwbGlua3MKICAgICAgICByYW4gLT4gZ2F0ZXdheSAibWFuYWdlcyIKICAgICAgICBnYXRld2F5IC0+IG5zICJ1cGxpbmtzIgogICAgICAgIG5zIC0+IGFwcHNlcnZlciAidXBsaW5rcyIKICAgICAgICBucyAtPiBqb2luc2VydmVyICJqb2luIHJlcXVlc3QiCiAgICAgICAgam9pbnNlcnZlciAtPiBucyAiam9pbiBhY2NlcHQiCiAgICAgICAgYXBwc2VydmVyIC0+IG5zICJkb3dubGlua3MiCiAgICAgICAgYXBwc2VydmVyIC0+IGluZmx1eGRiICJ3cml0ZSIKICAgICAgICBuZXR3b3Jrc2VydmVyIC0+IGdhdGV3YXkgImRvd25saW5rcyIKICAgICAgICBnYXRld2F5IC0+IGRldmljZSAiZG93bmxpbmtzIgogICAgICAgIGRqYW5nb2FwcCAtPiBpbmZsdXhkYiAicmVhZCIKICAgICAgICBvcGVyYXRvciAtPiBuZ2lueCAidmlldyIKICAgICAgICBmaWVsZHRlY2ggLT4gbmdpbnggInZpZXciCiAgICAgICAgbmV0d29ya3NlcnZlciAtPiBkZXZpY2UgIk1BQyBjb21tYW5kcyIKICAgICAgICBuZXR3b3Jrc2VydmVyIC0+IGRldmljZSAiQ29uZmlybS9BY2siCiAgICAgICAgZGV2aWNlIC0+IG5ldHdvcmtzZXJ2ZXIgIkNvbmZpcm0vQWNrIgoKICAgICAgICBuZ2lueCAtPiBkamFuZ29hcHAgcHJveHkKICAgICAgICBkamFuZ29hcHAgLT4gc3VydmV5b3JkYiByZWFkL3dyaXRlCgogICAgICAgIGRlcGxveW1lbnRFbnZpcm9ubWVudCAiRGV2ZWxvcG1lbnQiIHsKICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkF6dXJlIFZNIiAiIiAiYXp1cmUtdm0iIHsKICAgICAgICAgICAgICAgIG5naW54SW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSBuZ2lueAogICAgICAgICAgICAgICAgc3VydmV5b3JJbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIGRqYW5nb2FwcAogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHZpZXdzIHsKCiAgICAgICAgIyBzeXN0ZW1sYW5kc2NhcGUgZXZlcnl0aGluZyAiQWxsIFN5c3RlbXMiIHsKICAgICAgICAjICAgICBpbmNsdWRlICoKICAgICAgICAjIH0KCiAgICAgICAgIyBDb250ZXh0IFZpZXdzCiAgICAgICAgc3lzdGVtQ29udGV4dCBuZXR3b3Jrc2VydmVyICJOZXR3b3JrU2VydmVyIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgIH0KICAgICAgICBzeXN0ZW1Db250ZXh0IGRldmljZSAiZGV2aWNlIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgIH0KICAgICAgICBzeXN0ZW1Db250ZXh0IHN1cnZleW9yICJzdXJ2ZXlvciIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICB9CgogICAgICAgICMgQ29udGFpbmVyIFZpZXdzCiAgICAgICAgY29udGFpbmVyIG5ldHdvcmtzZXJ2ZXIgIk5ldHdvcmtTZXJ2ZXJDb250YWluZXIiICJOZXR3b3JrIFNlcnZlciBEZXNjcmliZWQiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgfQogICAgICAgIGNvbnRhaW5lciBzdXJ2ZXlvciAic3VydmV5b3JDb250YWluZXIiICJzdXJ2ZXlvciBwYXJ0cyIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICB9CgogICAgICAgIGRlcGxveW1lbnQgc3VydmV5b3IgIkRldmVsb3BtZW50IiAiU3VydmV5b3JfRGVwbG95bWVudCIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgZGVzY3JpcHRpb24gIkFuIGV4YW1wbGUiCiAgICAgICAgfQoKICAgICAgICBzdHlsZXMgewoKICAgICAgICAgICAgZWxlbWVudCBkZXZpY2UgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCBwYXBheWF3aGlwCiAgICAgICAgICAgICAgICBjb2xvciBibGFjawogICAgICAgICAgICAgICAgZm9udFNpemUgMjIKICAgICAgICAgICAgICAgIHNoYXBlIEhleGFnb24KICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50IG9wZXJhdG9yIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzA4NDI3YgogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICAgICAgZm9udFNpemUgMjIKICAgICAgICAgICAgICAgIHNoYXBlIFBlcnNvbgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgZmllbGRfdGVjaCB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kIHB1cnBsZQogICAgICAgICAgICAgICAgY29sb3Igd2hpdGUKICAgICAgICAgICAgICAgIGZvbnRTaXplIDI0CiAgICAgICAgICAgICAgICBzaGFwZSBSb2JvdAogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgZ2F0ZXdheSB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICMwODQyN2IKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgICAgIGZvbnRTaXplIDIyCiAgICAgICAgICAgICAgICBzaGFwZSBQaXBlCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCBpbmZsdXhkYiB7CiAgICAgICAgICAgICAgICBzaGFwZSBDeWxpbmRlcgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgbmdpbnggewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCBncmVlbgogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICAgICAgZm9udFNpemUgMzYKICAgICAgICAgICAgICAgIHNoYXBlIFdlYkJyb3dzZXIKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCn0K"
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "13",
+      "tags" : "Element,Person,operator",
+      "properties" : {
+        "structurizr.dsl.identifier" : "operator"
+      },
+      "name" : "Operator",
+      "description" : "review macro performance",
+      "relationships" : [ {
+        "id" : "30",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "4c48780d-9d9b-4de6-b4c1-0a3f2b95eb28"
+        },
+        "sourceId" : "13",
+        "destinationId" : "10",
+        "description" : "view"
+      }, {
+        "id" : "31",
+        "sourceId" : "13",
+        "destinationId" : "9",
+        "description" : "view",
+        "linkedRelationshipId" : "30"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "14",
+      "tags" : "Element,Person,field_tech",
+      "properties" : {
+        "structurizr.dsl.identifier" : "fieldtech"
+      },
+      "name" : "Field Technician",
+      "description" : "review micro performance",
+      "relationships" : [ {
+        "id" : "32",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "7512dc92-aeb7-45dd-9c3d-9a0ef90814d2"
+        },
+        "sourceId" : "14",
+        "destinationId" : "10",
+        "description" : "view"
+      }, {
+        "id" : "33",
+        "sourceId" : "14",
+        "destinationId" : "9",
+        "description" : "view",
+        "linkedRelationshipId" : "32"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "7",
+      "tags" : "Element,Software System,appserver",
+      "properties" : {
+        "structurizr.dsl.identifier" : "appserver"
+      },
+      "name" : "Application Server",
+      "description" : "decrypt, decode, direct",
+      "relationships" : [ {
+        "id" : "24",
+        "sourceId" : "7",
+        "destinationId" : "4",
+        "description" : "downlinks",
+        "linkedRelationshipId" : "23"
+      }, {
+        "id" : "23",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "4ebecefd-8321-453d-b96b-e94faff4528e"
+        },
+        "sourceId" : "7",
+        "destinationId" : "5",
+        "description" : "downlinks"
+      }, {
+        "id" : "25",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "e4a2e36e-a50e-4b6b-b09c-f83cd95c887a"
+        },
+        "sourceId" : "7",
+        "destinationId" : "8",
+        "description" : "write"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "1",
+      "tags" : "Element,Software System,device",
+      "properties" : {
+        "structurizr.dsl.identifier" : "device"
+      },
+      "name" : "LoRaWAN Device",
+      "description" : "with sensors",
+      "relationships" : [ {
+        "id" : "15",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "1d1bbf74-c40b-48be-93c5-6f077ce366c9"
+        },
+        "sourceId" : "1",
+        "destinationId" : "2",
+        "description" : "uplinks"
+      }, {
+        "id" : "36",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "8e402baa-89a5-48d8-a039-cdb8135ad263"
+        },
+        "sourceId" : "1",
+        "destinationId" : "4",
+        "description" : "Confirm/Ack"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "3",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "ran"
+      },
+      "name" : "Radio Access Network",
+      "relationships" : [ {
+        "id" : "16",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "165b32ea-096e-4f34-9b1d-27531b3bc3cb"
+        },
+        "sourceId" : "3",
+        "destinationId" : "2",
+        "description" : "manages"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "4",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "networkserver"
+      },
+      "name" : "Network Server",
+      "relationships" : [ {
+        "id" : "26",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "41180736-a2a4-4619-846b-aecb250d3874"
+        },
+        "sourceId" : "4",
+        "destinationId" : "2",
+        "description" : "downlinks"
+      }, {
+        "id" : "35",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "ef32bff9-01b1-4877-8f29-e35f040663ed"
+        },
+        "sourceId" : "4",
+        "destinationId" : "1",
+        "description" : "Confirm/Ack"
+      }, {
+        "id" : "34",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "2f722b30-cf93-414f-beee-9c972ed36918"
+        },
+        "sourceId" : "4",
+        "destinationId" : "1",
+        "description" : "MAC commands"
+      }, {
+        "id" : "20",
+        "sourceId" : "4",
+        "destinationId" : "7",
+        "description" : "uplinks",
+        "linkedRelationshipId" : "19"
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "5",
+        "tags" : "Element,Container,ns",
+        "properties" : {
+          "structurizr.dsl.identifier" : "ns"
+        },
+        "name" : "NS",
+        "description" : "device management, de-dup",
+        "relationships" : [ {
+          "id" : "19",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "8ce43230-df18-4a3f-9235-2c0091be78b3"
+          },
+          "sourceId" : "5",
+          "destinationId" : "7",
+          "description" : "uplinks"
+        }, {
+          "id" : "21",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "bc33ecee-52ea-471a-86ba-f9cbfbdadd06"
+          },
+          "sourceId" : "5",
+          "destinationId" : "6",
+          "description" : "join request"
+        } ],
+        "technology" : "LoRaWAN",
+        "documentation" : { }
+      }, {
+        "id" : "6",
+        "tags" : "Element,Container,joinserver",
+        "properties" : {
+          "structurizr.dsl.identifier" : "joinserver"
+        },
+        "name" : "joinserver",
+        "description" : "device authentication",
+        "relationships" : [ {
+          "id" : "22",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "f481ef4b-7a43-4e78-a5ed-5dffffcd5408"
+          },
+          "sourceId" : "6",
+          "destinationId" : "5",
+          "description" : "join accept"
+        } ],
+        "technology" : "LoRaWAN",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "9",
+      "tags" : "Element,Software System,surveyor",
+      "properties" : {
+        "structurizr.dsl.identifier" : "surveyor"
+      },
+      "name" : "RF Field Surveyor",
+      "description" : "Django Web App",
+      "relationships" : [ {
+        "id" : "29",
+        "sourceId" : "9",
+        "destinationId" : "8",
+        "description" : "read",
+        "linkedRelationshipId" : "28"
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "11",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "surveyordb"
+        },
+        "name" : "sqlite3",
+        "description" : "database",
+        "technology" : "surveyordb",
+        "documentation" : { }
+      }, {
+        "id" : "10",
+        "tags" : "Element,Container,nginx",
+        "properties" : {
+          "structurizr.dsl.identifier" : "nginx"
+        },
+        "name" : "nginx",
+        "description" : "web server",
+        "relationships" : [ {
+          "id" : "37",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "e29eb54b-6300-4ea9-b422-fef6f4260c5a"
+          },
+          "sourceId" : "10",
+          "destinationId" : "12",
+          "description" : "proxy"
+        } ],
+        "technology" : "web",
+        "documentation" : { }
+      }, {
+        "id" : "12",
+        "tags" : "Element,Container,djangoapp",
+        "properties" : {
+          "structurizr.dsl.identifier" : "djangoapp"
+        },
+        "name" : "djangoapp",
+        "description" : "django app",
+        "relationships" : [ {
+          "id" : "28",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "55b15d86-e323-4956-ac00-c0c103f5ce44"
+          },
+          "sourceId" : "12",
+          "destinationId" : "8",
+          "description" : "read"
+        }, {
+          "id" : "38",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "51e3c7f7-ce00-437e-a68f-b2ea372fbede"
+          },
+          "sourceId" : "12",
+          "destinationId" : "11",
+          "description" : "read/write"
+        } ],
+        "technology" : "djangoapp",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "2",
+      "tags" : "Element,Software System,gateway",
+      "properties" : {
+        "structurizr.dsl.identifier" : "gateway"
+      },
+      "name" : "LoRaWAN Gateway",
+      "description" : "RF Coverage",
+      "relationships" : [ {
+        "id" : "18",
+        "sourceId" : "2",
+        "destinationId" : "4",
+        "description" : "uplinks",
+        "linkedRelationshipId" : "17"
+      }, {
+        "id" : "27",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "3a701122-b7e8-4374-9ade-f470d336b28f"
+        },
+        "sourceId" : "2",
+        "destinationId" : "1",
+        "description" : "downlinks"
+      }, {
+        "id" : "17",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "fde0fa16-df00-404c-bed0-aad4976831ed"
+        },
+        "sourceId" : "2",
+        "destinationId" : "5",
+        "description" : "uplinks"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "8",
+      "tags" : "Element,Software System,influxdb",
+      "properties" : {
+        "structurizr.dsl.identifier" : "influxdb"
+      },
+      "name" : "InfluxDB",
+      "description" : "time-series database",
+      "location" : "Unspecified",
+      "documentation" : { }
+    } ],
+    "deploymentNodes" : [ {
+      "id" : "39",
+      "tags" : "Element,Deployment Node",
+      "properties" : {
+        "structurizr.dsl.identifier" : "6b557f43-96a9-43a3-8702-b0e8f63706a8"
+      },
+      "name" : "Azure VM",
+      "environment" : "Development",
+      "technology" : "azure-vm",
+      "instances" : "1",
+      "containerInstances" : [ {
+        "id" : "41",
+        "tags" : "Container Instance",
+        "properties" : {
+          "structurizr.dsl.identifier" : "surveyorinstance"
+        },
+        "environment" : "Development",
+        "deploymentGroups" : [ "Default" ],
+        "instanceId" : 1,
+        "containerId" : "12"
+      }, {
+        "id" : "40",
+        "tags" : "Container Instance",
+        "properties" : {
+          "structurizr.dsl.identifier" : "nginxinstance"
+        },
+        "relationships" : [ {
+          "id" : "42",
+          "sourceId" : "40",
+          "destinationId" : "41",
+          "description" : "proxy",
+          "linkedRelationshipId" : "37"
+        } ],
+        "environment" : "Development",
+        "deploymentGroups" : [ "Default" ],
+        "instanceId" : 1,
+        "containerId" : "10"
+      } ]
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemContextViews" : [ {
+      "key" : "NetworkServer",
+      "order" : 1,
+      "softwareSystemId" : "4",
+      "dimensions" : {
+        "width" : 1600,
+        "height" : 2500
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 1055,
+        "y" : 325
+      }, {
+        "id" : "2",
+        "x" : 95,
+        "y" : 890
+      }, {
+        "id" : "4",
+        "x" : 574,
+        "y" : 1400
+      }, {
+        "id" : "7",
+        "x" : 199,
+        "y" : 2000
+      } ],
+      "relationships" : [ {
+        "id" : "18"
+      }, {
+        "id" : "27",
+        "vertices" : [ {
+          "x" : 949,
+          "y" : 672
+        } ]
+      }, {
+        "id" : "26",
+        "vertices" : [ {
+          "x" : 949,
+          "y" : 1250
+        } ]
+      }, {
+        "id" : "15",
+        "vertices" : [ {
+          "x" : 649,
+          "y" : 672
+        } ]
+      }, {
+        "id" : "36",
+        "vertices" : [ {
+          "x" : 799,
+          "y" : 950
+        } ]
+      }, {
+        "id" : "24",
+        "vertices" : [ {
+          "x" : 738,
+          "y" : 1929
+        } ]
+      }, {
+        "id" : "35",
+        "vertices" : [ {
+          "x" : 949,
+          "y" : 950
+        } ]
+      }, {
+        "id" : "34",
+        "vertices" : [ {
+          "x" : 649,
+          "y" : 950
+        } ]
+      }, {
+        "id" : "20",
+        "vertices" : [ {
+          "x" : 484,
+          "y" : 1770
+        } ]
+      } ]
+    }, {
+      "key" : "surveyor",
+      "order" : 3,
+      "softwareSystemId" : "9",
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 2480,
+        "height" : 1748
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "13",
+        "x" : 940,
+        "y" : 980
+      }, {
+        "id" : "14",
+        "x" : 350,
+        "y" : 990
+      }, {
+        "id" : "8",
+        "x" : 665,
+        "y" : -30
+      }, {
+        "id" : "9",
+        "x" : 670,
+        "y" : 455
+      } ],
+      "relationships" : [ {
+        "id" : "29"
+      }, {
+        "id" : "33"
+      }, {
+        "id" : "31"
+      } ]
+    }, {
+      "key" : "device",
+      "order" : 2,
+      "softwareSystemId" : "1",
+      "dimensions" : {
+        "width" : 1829,
+        "height" : 1900
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 365,
+        "y" : 1090
+      }, {
+        "id" : "2",
+        "x" : 395,
+        "y" : 665
+      }, {
+        "id" : "4",
+        "x" : 410,
+        "y" : 115
+      } ],
+      "relationships" : [ {
+        "id" : "18",
+        "vertices" : [ {
+          "x" : 777,
+          "y" : 544
+        } ]
+      }, {
+        "id" : "27",
+        "vertices" : [ {
+          "x" : 550,
+          "y" : 870
+        } ]
+      }, {
+        "id" : "26",
+        "vertices" : [ {
+          "x" : 477,
+          "y" : 535
+        } ]
+      }, {
+        "id" : "15"
+      }, {
+        "id" : "36",
+        "vertices" : [ {
+          "x" : 855,
+          "y" : 735
+        } ]
+      }, {
+        "id" : "35",
+        "vertices" : [ {
+          "x" : 870,
+          "y" : 705
+        } ]
+      }, {
+        "id" : "34",
+        "vertices" : [ {
+          "x" : 865,
+          "y" : 970
+        } ]
+      } ]
+    } ],
+    "containerViews" : [ {
+      "key" : "surveyorContainer",
+      "order" : 5,
+      "description" : "surveyor parts",
+      "softwareSystemId" : "9",
+      "paperSize" : "Letter_Landscape",
+      "dimensions" : {
+        "width" : 3300,
+        "height" : 2550
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 1977,
+        "y" : 1261
+      }, {
+        "id" : "12",
+        "x" : 1980,
+        "y" : 855
+      }, {
+        "id" : "13",
+        "x" : 620,
+        "y" : 710
+      }, {
+        "id" : "14",
+        "x" : 585,
+        "y" : 1195
+      }, {
+        "id" : "8",
+        "x" : 1970,
+        "y" : 370
+      }, {
+        "id" : "10",
+        "x" : 1290,
+        "y" : 980
+      } ],
+      "relationships" : [ {
+        "id" : "28"
+      }, {
+        "id" : "37"
+      }, {
+        "id" : "32"
+      }, {
+        "id" : "30"
+      }, {
+        "id" : "38"
+      } ]
+    }, {
+      "key" : "NetworkServerContainer",
+      "order" : 4,
+      "description" : "Network Server Described",
+      "softwareSystemId" : "4",
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 2480,
+        "height" : 1748
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "2",
+        "x" : 190,
+        "y" : 505
+      }, {
+        "id" : "5",
+        "x" : 860,
+        "y" : 520
+      }, {
+        "id" : "6",
+        "x" : 865,
+        "y" : 40
+      }, {
+        "id" : "7",
+        "x" : 1515,
+        "y" : 535
+      } ],
+      "relationships" : [ {
+        "id" : "17"
+      }, {
+        "id" : "23",
+        "vertices" : [ {
+          "x" : 1405,
+          "y" : 725
+        } ]
+      }, {
+        "id" : "22",
+        "vertices" : [ {
+          "x" : 1165,
+          "y" : 465
+        } ]
+      }, {
+        "id" : "21",
+        "vertices" : [ {
+          "x" : 990,
+          "y" : 455
+        } ]
+      }, {
+        "id" : "19",
+        "vertices" : [ {
+          "x" : 1415,
+          "y" : 650
+        } ]
+      } ]
+    } ],
+    "deploymentViews" : [ {
+      "key" : "Surveyor_Deployment",
+      "order" : 6,
+      "description" : "An example",
+      "softwareSystemId" : "9",
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 2480,
+        "height" : 1748
+      },
+      "environment" : "Development",
+      "elements" : [ {
+        "id" : "39",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "40",
+        "x" : 90,
+        "y" : 135
+      }, {
+        "id" : "41",
+        "x" : 710,
+        "y" : 135
+      } ],
+      "relationships" : [ {
+        "id" : "42"
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "device",
+          "background" : "#ffefd5",
+          "color" : "#000000",
+          "fontSize" : 22,
+          "shape" : "Hexagon"
+        }, {
+          "tag" : "operator",
+          "background" : "#08427b",
+          "color" : "#ffffff",
+          "fontSize" : 22,
+          "shape" : "Person"
+        }, {
+          "tag" : "field_tech",
+          "background" : "#800080",
+          "color" : "#ffffff",
+          "fontSize" : 24,
+          "shape" : "Robot"
+        }, {
+          "tag" : "gateway",
+          "background" : "#08427b",
+          "color" : "#ffffff",
+          "fontSize" : 22,
+          "shape" : "Pipe"
+        }, {
+          "tag" : "influxdb",
+          "shape" : "Cylinder"
+        }, {
+          "tag" : "nginx",
+          "background" : "#008000",
+          "color" : "#ffffff",
+          "fontSize" : 36,
+          "shape" : "WebBrowser"
+        } ]
+      },
+      "terminology" : { },
+      "metadataSymbols" : "SquareBrackets",
+      "lastSavedView" : "Surveyor_Deployment"
+    }
+  }
+}
