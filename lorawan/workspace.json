@@ -1,0 +1,1014 @@
+{
+  "id" : 1,
+  "name" : "Name",
+  "description" : "Description",
+  "lastModifiedDate" : "2024-01-03T23:12:09Z",
+  "lastModifiedAgent" : "structurizr-javascript",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICAhaWRlbnRpZmllcnMgaGllcmFyY2hpY2FsCiAgICAhZG9jcyBkb2NzCiAgICAKICAgIG1vZGVsIHsKCiAgICAgICAgZGV2aWNlID0gc29mdHdhcmVTeXN0ZW0gIkxvUmFXQU4gRGV2aWNlIiAiYSBkZXZpY2UgaW4gdGhlIHdvcmxkIiBkZXZ0YWcgewogICAgICAgICAgICBzZW5zb3JzID0gY29udGFpbmVyICJQaHlzaWNhbCBTZW5zb3JzIiAiZ2V0IGRhdGEiICJoYXJkd2FyZSIgc2Vuc29yc3RhZwogICAgICAgICAgICBtY3UgPSBjb250YWluZXIgIk1pY3JvQ29udHJvbFVuaXQiICJvcGVyYXRlIGRldmljZSIgImhhcmR3YXJlIiBtY3V0YWcgewogICAgICAgICAgICAgICAgc2Vuc29ycyAtPiB0aGlzIHRlbGVtZXRyeQogICAgICAgICAgICB9CiAgICAgICAgICAgIG1vZGVtID0gY29udGFpbmVyICJNb2RlbSIgImNvbW11bmljYXRlIiAiaGFyZHdhcmUiIG1vZGVtdGFnIHsKICAgICAgICAgICAgICAgIG1jdSAtPiB0aGlzIGNvbW0KICAgICAgICAgICAgICAgIHRoaXMgLT4gbWN1CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmFkaW8gPSBjb250YWluZXIgIlJhZGlvIiAiUkYiICJjaGlwIiByYWRpb3RhZyB7CiAgICAgICAgICAgICAgICBtb2RlbSAtPiB0aGlzIG91dAogICAgICAgICAgICAgICAgdGhpcyAtPiBtb2RlbSBpbgogICAgICAgICAgICB9CiAgICAgICAgICAgIGFudGVubmEgPSBjb250YWluZXIgIkFudGVubmEiICIiICJoYXJkd2FyZSIgYW50ZW5uYXRhZyB7CiAgICAgICAgICAgICAgICByYWRpbyAtPiB0aGlzIG91dAogICAgICAgICAgICAgICAgdGhpcyAtPiByYWRpbyBpbgogICAgICAgICAgICB9CiAgICAgICAgICAgIHBvd2VyID0gY29udGFpbmVyICJwb3dlciIgIiIgImhhcmR3YXJlIiBwb3dlcnRhZwogICAgICAgIH0KCiAgICAgICAgZ2F0ZXdheSA9IHNvZnR3YXJlU3lzdGVtICJMb1JhV0FOIEdhdGV3YXkiICJSRiBDb3ZlcmFnZSIgZ3d0YWcgewogICAgICAgICAgICBiYWNraGF1bCA9IGNvbnRhaW5lciAiQmFja2hhdWwiICJJUCB0byBOZXR3b3JrIFNlcnZlciIgImludGVybmV0IiBiYWNraGF1bHRhZyAgIAogICAgICAgICAgICBwa3Rmd2QgPSBjb250YWluZXIgIlBhY2tldCBGb3J3YXJkZXIiICJSRiB0byBJUCIgImRhZW1vbiIgcGt0ZndkdGFnIHsKICAgICAgICAgICAgICAgIC0+IGJhY2toYXVsIGludGVybmV0IGNlbGx1bGFyCiAgICAgICAgICAgIH0KICAgICAgICAgICAgY3B1ID0gY29udGFpbmVyICJDUFUiICJnYXRld2F5IiAiaGFyZHdhcmUiIGNwdXRhZyB7CiAgICAgICAgICAgICAgICAtPiBwa3Rmd2QgY29udHJvbAogICAgICAgICAgICB9CgogICAgICAgICAgICBncHMgPSBjb250YWluZXIgIkdQUyIgIkdlb2xvY2F0aW9uIiAiIiBncHN0YWcgewogICAgICAgICAgICAgICAgY3B1IC0+IHRoaXMKICAgICAgICAgICAgfQogICAgICAgICAgICBtb2RlbSA9IGNvbnRhaW5lciAiTW9kZW0iICJjb21tdW5pY2F0ZSIgImhhcmR3YXJlIiBtb2RlbXRhZyB7CiAgICAgICAgICAgICAgICBwa3Rmd2QgLT4gdGhpcyBkb3dubGlua3MKICAgICAgICAgICAgICAgIHRoaXMgLT4gcGt0ZndkIHVwbGlua3MKICAgICAgICAgICAgfQogICAgICAgICAgICByYWRpbyA9IGNvbnRhaW5lciAiUmFkaW8iICJSRiIgImNoaXAiIHJhZGlvdGFnIHsKICAgICAgICAgICAgICAgIG1vZGVtIC0+IHRoaXMgb3V0CiAgICAgICAgICAgICAgICB0aGlzIC0+IG1vZGVtIGluCiAgICAgICAgICAgIH0KICAgICAgICAgICAgYW50ZW5uYSA9IGNvbnRhaW5lciAiQW50ZW5uYSIgIiIgImhhcmR3YXJlIiBhbnRlbm5hdGFnIHsKICAgICAgICAgICAgICAgIHJhZGlvIC0+IHRoaXMgb3V0CiAgICAgICAgICAgICAgICB0aGlzIC0+IHJhZGlvIGluCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHBvd2VyID0gY29udGFpbmVyICJwb3dlciIgImdhdGV3YXkgcG93ZXIiICJoYXJkd2FyZSIgcG93ZXJ0YWcKICAgICAgICB9CgogICAgICAgIG5ldHdvcmtzZXJ2ZXIgPSBzb2Z0d2FyZVN5c3RlbSAiTmV0d29yayBTZXJ2ZXIiICJMb1JhV0FOIE5TIiBuc3RhZyB7CiAgICAgICAgICAgIHBrdC1icmlkZ2UgPSBjb250YWluZXIgIlBhY2tldCBCcmlkZ2UiICJJUCB0byBSRiIgImRhZW1vbiIgcGt0YnJpZGdldGFnCiAgICAgICAgICAgIGRlZHVwID0gY29udGFpbmVyICJEZUR1cCIgIkxvUmFXQU4gTlMiICJzb2Z0d2FyZSIgZGVkdXB0YWcgICAgIAogICAgICAgICAgICBqb2luID0gY29udGFpbmVyICJKb2luIiAiTG9SYVdBTiBOUyIgInNvZnR3YXJlIiBqb2ludGFnCiAgICAgICAgICAgIGludGVncmF0aW9ucyA9IGNvbnRhaW5lciAiaW50ZWdyYXRpb25zIiAiTG9SYVdBTiBOUyIgInNvZnR3YXJlIiBmd2R0YWcKICAgICAgICAgICAgYWRyID0gY29udGFpbmVyICJBRFIiICJMb1JhV0FOIE5TIiAic29mdHdhcmUiIGFkcnRhZwogICAgICAgIH0KCiAgICAgICAgYXBwbGljYXRpb25zZXJ2ZXIgPSBzb2Z0d2FyZVN5c3RlbSAiQXBwbGljYXRpb24gU2VydmVyIiAiZGF0YS9jb250cm9sIiBhc3RhZwogICAgICAgIAogICAgICAgIGRldmljZS5hbnRlbm5hIC0+IGdhdGV3YXkuYW50ZW5uYSB1cGxpbmtzIFJGIHVwbGluawogICAgICAgIGRldmljZS5tY3UgLT4gbmV0d29ya3NlcnZlci5kZWR1cCAiTG9SYVdBTlxuTUFDIiB1cGxpbmsvZG93bmxpbmsgbG9naWNhbAogICAgICAgIGRldmljZS5tY3UgLT4gYXBwbGljYXRpb25zZXJ2ZXIgcmVwb3J0cyB1cGxpbmsgbG9naWNhbAogICAgICAgIGdhdGV3YXkgLT4gbmV0d29ya3NlcnZlciB1cGxpbmtzIHBrdC1md2QgdXBsaW5rCiAgICAgICAgbmV0d29ya3NlcnZlciAtPiBhcHBsaWNhdGlvbnNlcnZlciB1cGxpbmtzIGh0dHAgdXBsaW5rCiAgICAgICAgYXBwbGljYXRpb25zZXJ2ZXIgLT4gbmV0d29ya3NlcnZlciBkb3dubGluayBodHRwIGRvd25saW5rCiAgICAgICAgbmV0d29ya3NlcnZlciAtPiBnYXRld2F5IGRvd25saW5rIHBrdC1md2QgZG93bmxpbmsKICAgICAgICBnYXRld2F5LmFudGVubmEgLT4gZGV2aWNlLmFudGVubmEgZG93bmxpbmtzIFJGIGRvd25saW5rCiAgICAgICAgYXBwbGljYXRpb25zZXJ2ZXIgLT4gZGV2aWNlLm1jdSBjb250cm9sIGRvd25saW5rIGxvZ2ljYWwKICAgIH0KCiAgICB2aWV3cyB7CiAgICAKICAgICAgICBzeXN0ZW1Db250ZXh0IGRldmljZSBMb1JhV0FOICJMb3JhV2FuIFBhY2tldCBGbG93IiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgIH0KICAgICAgICAKICAgICAgICBjb250YWluZXIgZGV2aWNlIGRldmljZV9DT05UQUlORVJTICJMb3JhV2FuIERldmljZSIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgY29udGFpbmVyIGdhdGV3YXkgZ2F0ZXdheV9DT05UQUlORVJTICJMb3JhV2FuIEdhdGV3YXkiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgfQoKICAgICAgICBzdHlsZXMgewogICAgICAgICAgICByZWxhdGlvbnNoaXAgdXBsaW5rIHsKICAgICAgICAgICAgICAgIGNvbG9yIGdyZWVuCiAgICAgICAgICAgICAgICBkYXNoZWQgZmFsc2UKICAgICAgICAgICAgICAgIHRoaWNrbmVzcyA0CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmVsYXRpb25zaGlwIGRvd25saW5rIHsKICAgICAgICAgICAgICAgIGNvbG9yIHJlZAogICAgICAgICAgICAgICAgZGFzaGVkIGZhbHNlCiAgICAgICAgICAgICAgICB0aGlja25lc3MgNAogICAgICAgICAgICB9CiAgICAgICAgICAgIHJlbGF0aW9uc2hpcCBsb2dpY2FsIHsgIAogICAgICAgICAgICAgICAgY29sb3IgYmx1ZQogICAgICAgICAgICAgICAgZGFzaGVkIHRydWUKICAgICAgICAgICAgICAgIHRoaWNrbmVzcyA0CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCBkZXZ0YWcgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCBncmVlbgogICAgICAgICAgICAgICAgY29sb3Igd2hpdGUKICAgICAgICAgICAgICAgIGZvbnRTaXplIDM2CiAgICAgICAgICAgICAgICBzaGFwZSBIZXhhZ29uCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCBnd3RhZyB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICNEREEwREQKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgICAgIGZvbnRTaXplIDIyCiAgICAgICAgICAgICAgICBzaGFwZSBQaXBlCiAgICAgICAgICAgICAgICBpY29uIGRvY3MvaW1hZ2VzL3Rvd2VyLnBuZwogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgbnN0YWcgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCBkYXJrb3JjaGlkCiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgICAgICBmb250U2l6ZSAyMgogICAgICAgICAgICAgICAgc2hhcGUgQ3lsaW5kZXIKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50IGFzdGFnIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgZGFya29saXZlZ3JlZW4KICAgICAgICAgICAgICAgIGNvbG9yIHdoaXRlCiAgICAgICAgICAgICAgICBmb250U2l6ZSAyNAogICAgICAgICAgICAgICAgc2hhcGUgUm91bmRlZEJveAogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgc2Vuc29yc3RhZyB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kIGdyZWVuCiAgICAgICAgICAgICAgICBjb2xvciB3aGl0ZQogICAgICAgICAgICAgICAgZm9udFNpemUgMjIKICAgICAgICAgICAgICAgIHNoYXBlIEhleGFnb24KICAgICAgICAgICAgICAgIGljb24gZG9jcy9pbWFnZXMvdGhlcm0xMDAuanBnCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCBhbnRlbm5hdGFnIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgI0RBNzBENgogICAgICAgICAgICAgICAgY29sb3IgYmxhY2sKICAgICAgICAgICAgICAgIHNoYXBlIENvbXBvbmVudAogICAgICAgICAgICAgICAgIyBpY29uIGRvY3MvaW1hZ2VzL2FudGVubmEucG5nCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCByYWRpb3RhZyB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kIHZpb2xldAogICAgICAgICAgICAgICAgY29sb3IgYmxhY2sKICAgICAgICAgICAgICAgIHNoYXBlIENvbXBvbmVudAogICAgICAgICAgICAgICAgIyBpY29uIGRvY3MvaW1hZ2VzL2FudGVubmEucG5nCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCBtb2RlbXRhZyB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICAjRTBCMEZGCiAgICAgICAgICAgICAgICBjb2xvciBibGFjawogICAgICAgICAgICAgICAgc2hhcGUgQ29tcG9uZW50CiAgICAgICAgICAgICAgICAjIGljb24gZG9jcy9pbWFnZXMvYW50ZW5uYS5wbmcKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50IGNwdXRhZyB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kIExpZ2h0R3JlZW4KICAgICAgICAgICAgICAgIGNvbG9yIGJsYWNrCiAgICAgICAgICAgICAgICBzaGFwZSBDb21wb25lbnQKICAgICAgICAgICAgICAgICMgaWNvbiBkb2NzL2ltYWdlcy9hbnRlbm5hLnBuZwogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgcG93ZXJ0YWcgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCBJbmRpYW5SZWQKICAgICAgICAgICAgICAgIGNvbG9yIHdoaXRlCiAgICAgICAgICAgICAgICBzaGFwZSBDb21wb25lbnQKICAgICAgICAgICAgICAgICMgaWNvbiBkb2NzL2ltYWdlcy9hbnRlbm5hLnBuZwogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgZ3BzdGFnIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgU2t5Qmx1ZQogICAgICAgICAgICAgICAgY29sb3IgYmxhY2sKICAgICAgICAgICAgICAgIHNoYXBlIENvbXBvbmVudAogICAgICAgICAgICAgICAgIyBpY29uIGRvY3MvaW1hZ2VzL2FudGVubmEucG5nCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCBwa3Rmd2R0YWcgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjREY3M0ZGCiAgICAgICAgICAgICAgICBjb2xvciB3aGl0ZQogICAgICAgICAgICAgICAgc2hhcGUgQ29tcG9uZW50CiAgICAgICAgICAgICAgICAjIGljb24gZG9jcy9pbWFnZXMvYW50ZW5uYS5wbmcKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50IGJhY2toYXVsdGFnIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzRFMkE4NAogICAgICAgICAgICAgICAgY29sb3Igd2hpdGUKICAgICAgICAgICAgICAgIHNoYXBlIENvbXBvbmVudAogICAgICAgICAgICAgICAgIyBpY29uIGRvY3MvaW1hZ2VzL2FudGVubmEucG5nCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cgp9Cg=="
+  },
+  "configuration" : { },
+  "model" : {
+    "softwareSystems" : [ {
+      "id" : "15",
+      "tags" : "Element,Software System,gwtag",
+      "properties" : {
+        "structurizr.dsl.identifier" : "gateway"
+      },
+      "name" : "LoRaWAN Gateway",
+      "description" : "RF Coverage",
+      "relationships" : [ {
+        "id" : "56",
+        "sourceId" : "15",
+        "destinationId" : "11",
+        "description" : "downlinks",
+        "technology" : "RF",
+        "linkedRelationshipId" : "54"
+      }, {
+        "id" : "50",
+        "tags" : "Relationship,uplink",
+        "properties" : {
+          "structurizr.dsl.identifier" : "3c703362-1ab8-47d0-a7fa-aa722c2d16b5"
+        },
+        "sourceId" : "15",
+        "destinationId" : "33",
+        "description" : "uplinks",
+        "technology" : "pkt-fwd"
+      }, {
+        "id" : "57",
+        "sourceId" : "15",
+        "destinationId" : "1",
+        "description" : "downlinks",
+        "technology" : "RF",
+        "linkedRelationshipId" : "54"
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "23",
+        "tags" : "Element,Container,modemtag",
+        "properties" : {
+          "structurizr.dsl.identifier" : "gateway.modem"
+        },
+        "name" : "Modem",
+        "description" : "communicate",
+        "relationships" : [ {
+          "id" : "25",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "673bdd82-1941-4692-a444-868e5bf7f203"
+          },
+          "sourceId" : "23",
+          "destinationId" : "17",
+          "description" : "uplinks"
+        }, {
+          "id" : "27",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "0c6ad56d-207b-42c9-be0f-daa693437b5a"
+          },
+          "sourceId" : "23",
+          "destinationId" : "26",
+          "description" : "out"
+        } ],
+        "technology" : "hardware",
+        "documentation" : { }
+      }, {
+        "id" : "17",
+        "tags" : "Element,Container,pktfwdtag",
+        "properties" : {
+          "structurizr.dsl.identifier" : "gateway.pktfwd"
+        },
+        "name" : "Packet Forwarder",
+        "description" : "RF to IP",
+        "relationships" : [ {
+          "id" : "24",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "e6a1a615-9372-463e-94b7-3cb651abb7b8"
+          },
+          "sourceId" : "17",
+          "destinationId" : "23",
+          "description" : "downlinks"
+        }, {
+          "id" : "18",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "95e08a0d-38d7-4921-a63a-f5d492ccfe46"
+          },
+          "sourceId" : "17",
+          "destinationId" : "16",
+          "description" : "internet",
+          "technology" : "cellular"
+        } ],
+        "technology" : "daemon",
+        "documentation" : { }
+      }, {
+        "id" : "26",
+        "tags" : "Element,Container,radiotag",
+        "properties" : {
+          "structurizr.dsl.identifier" : "gateway.radio"
+        },
+        "name" : "Radio",
+        "description" : "RF",
+        "relationships" : [ {
+          "id" : "28",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "3c6d096f-9a9a-4e6a-8ade-b8560a5d7104"
+          },
+          "sourceId" : "26",
+          "destinationId" : "23",
+          "description" : "in"
+        }, {
+          "id" : "30",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "fb1aceec-94ca-4ea0-9de9-e7fe9293a23f"
+          },
+          "sourceId" : "26",
+          "destinationId" : "29",
+          "description" : "out"
+        } ],
+        "technology" : "chip",
+        "documentation" : { }
+      }, {
+        "id" : "16",
+        "tags" : "Element,Container,backhaultag",
+        "properties" : {
+          "structurizr.dsl.identifier" : "gateway.backhaul"
+        },
+        "name" : "Backhaul",
+        "description" : "IP to Network Server",
+        "technology" : "internet",
+        "documentation" : { }
+      }, {
+        "id" : "29",
+        "tags" : "Element,Container,antennatag",
+        "properties" : {
+          "structurizr.dsl.identifier" : "gateway.antenna"
+        },
+        "name" : "Antenna",
+        "relationships" : [ {
+          "id" : "55",
+          "sourceId" : "29",
+          "destinationId" : "1",
+          "description" : "downlinks",
+          "technology" : "RF",
+          "linkedRelationshipId" : "54"
+        }, {
+          "id" : "31",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "b60a0f2b-025a-4ed9-a38a-a38702447bee"
+          },
+          "sourceId" : "29",
+          "destinationId" : "26",
+          "description" : "in"
+        }, {
+          "id" : "54",
+          "tags" : "Relationship,downlink",
+          "properties" : {
+            "structurizr.dsl.identifier" : "21496e13-384b-4f32-9e39-a7b0ab04916b"
+          },
+          "sourceId" : "29",
+          "destinationId" : "11",
+          "description" : "downlinks",
+          "technology" : "RF"
+        } ],
+        "technology" : "hardware",
+        "documentation" : { }
+      }, {
+        "id" : "21",
+        "tags" : "Element,Container,gpstag",
+        "properties" : {
+          "structurizr.dsl.identifier" : "gateway.gps"
+        },
+        "name" : "GPS",
+        "description" : "Geolocation",
+        "documentation" : { }
+      }, {
+        "id" : "19",
+        "tags" : "Element,Container,cputag",
+        "properties" : {
+          "structurizr.dsl.identifier" : "gateway.cpu"
+        },
+        "name" : "CPU",
+        "description" : "gateway",
+        "relationships" : [ {
+          "id" : "22",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "cfe06086-d4fa-4f2f-bca3-13c9dfaf4428"
+          },
+          "sourceId" : "19",
+          "destinationId" : "21"
+        }, {
+          "id" : "20",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "149ccfc7-2488-459a-aa53-62f5344bfcc8"
+          },
+          "sourceId" : "19",
+          "destinationId" : "17",
+          "description" : "control"
+        } ],
+        "technology" : "hardware",
+        "documentation" : { }
+      }, {
+        "id" : "32",
+        "tags" : "Element,Container,powertag",
+        "properties" : {
+          "structurizr.dsl.identifier" : "gateway.power"
+        },
+        "name" : "power",
+        "description" : "gateway power",
+        "technology" : "hardware",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "39",
+      "tags" : "Element,Software System,astag",
+      "properties" : {
+        "structurizr.dsl.identifier" : "applicationserver"
+      },
+      "name" : "Application Server",
+      "description" : "data/control",
+      "relationships" : [ {
+        "id" : "59",
+        "sourceId" : "39",
+        "destinationId" : "1",
+        "description" : "control",
+        "technology" : "downlink",
+        "linkedRelationshipId" : "58"
+      }, {
+        "id" : "58",
+        "tags" : "Relationship,logical",
+        "properties" : {
+          "structurizr.dsl.identifier" : "73e1b38c-81b6-4bf1-8f9a-ad99f3f8dfe4"
+        },
+        "sourceId" : "39",
+        "destinationId" : "3",
+        "description" : "control",
+        "technology" : "downlink"
+      }, {
+        "id" : "52",
+        "tags" : "Relationship,downlink",
+        "properties" : {
+          "structurizr.dsl.identifier" : "463d6d91-2b5f-4e91-9fdd-fe6f3013cdcc"
+        },
+        "sourceId" : "39",
+        "destinationId" : "33",
+        "description" : "downlink",
+        "technology" : "http"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "1",
+      "tags" : "Element,Software System,devtag",
+      "properties" : {
+        "structurizr.dsl.identifier" : "device"
+      },
+      "name" : "LoRaWAN Device",
+      "description" : "a device in the world",
+      "relationships" : [ {
+        "id" : "46",
+        "sourceId" : "1",
+        "destinationId" : "35",
+        "description" : "LoRaWAN\nMAC",
+        "technology" : "uplink/downlink",
+        "linkedRelationshipId" : "44"
+      }, {
+        "id" : "43",
+        "sourceId" : "1",
+        "destinationId" : "15",
+        "description" : "uplinks",
+        "technology" : "RF",
+        "linkedRelationshipId" : "40"
+      }, {
+        "id" : "49",
+        "sourceId" : "1",
+        "destinationId" : "39",
+        "description" : "reports",
+        "technology" : "uplink",
+        "linkedRelationshipId" : "48"
+      }, {
+        "id" : "47",
+        "sourceId" : "1",
+        "destinationId" : "33",
+        "description" : "LoRaWAN\nMAC",
+        "technology" : "uplink/downlink",
+        "linkedRelationshipId" : "44"
+      }, {
+        "id" : "42",
+        "sourceId" : "1",
+        "destinationId" : "29",
+        "description" : "uplinks",
+        "technology" : "RF",
+        "linkedRelationshipId" : "40"
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "8",
+        "tags" : "Element,Container,radiotag",
+        "properties" : {
+          "structurizr.dsl.identifier" : "device.radio"
+        },
+        "name" : "Radio",
+        "description" : "RF",
+        "relationships" : [ {
+          "id" : "12",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "b580ab35-ccef-43ef-a421-426ce9cce8e7"
+          },
+          "sourceId" : "8",
+          "destinationId" : "11",
+          "description" : "out"
+        }, {
+          "id" : "10",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "2ed2e55c-65a0-448e-98f5-4f24b5604569"
+          },
+          "sourceId" : "8",
+          "destinationId" : "5",
+          "description" : "in"
+        } ],
+        "technology" : "chip",
+        "documentation" : { }
+      }, {
+        "id" : "5",
+        "tags" : "Element,Container,modemtag",
+        "properties" : {
+          "structurizr.dsl.identifier" : "device.modem"
+        },
+        "name" : "Modem",
+        "description" : "communicate",
+        "relationships" : [ {
+          "id" : "7",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "ea2478f5-ee71-4578-95bc-6db25cf7b3c1"
+          },
+          "sourceId" : "5",
+          "destinationId" : "3"
+        }, {
+          "id" : "9",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "4d21e8b9-2d50-48e4-82a0-3dc408cd8a54"
+          },
+          "sourceId" : "5",
+          "destinationId" : "8",
+          "description" : "out"
+        } ],
+        "technology" : "hardware",
+        "documentation" : { }
+      }, {
+        "id" : "3",
+        "tags" : "Element,Container,mcutag",
+        "properties" : {
+          "structurizr.dsl.identifier" : "device.mcu"
+        },
+        "name" : "MicroControlUnit",
+        "description" : "operate device",
+        "relationships" : [ {
+          "id" : "6",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "73aabb52-9749-4a64-b7ad-cc4948604e06"
+          },
+          "sourceId" : "3",
+          "destinationId" : "5",
+          "description" : "comm"
+        }, {
+          "id" : "48",
+          "tags" : "Relationship,logical",
+          "properties" : {
+            "structurizr.dsl.identifier" : "78a0c362-f5f3-482c-bdb8-e8e3ae633268"
+          },
+          "sourceId" : "3",
+          "destinationId" : "39",
+          "description" : "reports",
+          "technology" : "uplink"
+        }, {
+          "id" : "45",
+          "sourceId" : "3",
+          "destinationId" : "33",
+          "description" : "LoRaWAN\nMAC",
+          "technology" : "uplink/downlink",
+          "linkedRelationshipId" : "44"
+        }, {
+          "id" : "44",
+          "tags" : "Relationship,logical",
+          "properties" : {
+            "structurizr.dsl.identifier" : "43fc5cd6-95e0-4edf-8835-2cb5adf0513a"
+          },
+          "sourceId" : "3",
+          "destinationId" : "35",
+          "description" : "LoRaWAN\nMAC",
+          "technology" : "uplink/downlink"
+        } ],
+        "technology" : "hardware",
+        "documentation" : { }
+      }, {
+        "id" : "11",
+        "tags" : "Element,Container,antennatag",
+        "properties" : {
+          "structurizr.dsl.identifier" : "device.antenna"
+        },
+        "name" : "Antenna",
+        "relationships" : [ {
+          "id" : "13",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "76143733-89d6-478f-8910-6f479a5370ae"
+          },
+          "sourceId" : "11",
+          "destinationId" : "8",
+          "description" : "in"
+        }, {
+          "id" : "40",
+          "tags" : "Relationship,uplink",
+          "properties" : {
+            "structurizr.dsl.identifier" : "b3c4454b-fa0a-49a9-b522-01da9b9b123c"
+          },
+          "sourceId" : "11",
+          "destinationId" : "29",
+          "description" : "uplinks",
+          "technology" : "RF"
+        }, {
+          "id" : "41",
+          "sourceId" : "11",
+          "destinationId" : "15",
+          "description" : "uplinks",
+          "technology" : "RF",
+          "linkedRelationshipId" : "40"
+        } ],
+        "technology" : "hardware",
+        "documentation" : { }
+      }, {
+        "id" : "14",
+        "tags" : "Element,Container,powertag",
+        "properties" : {
+          "structurizr.dsl.identifier" : "device.power"
+        },
+        "name" : "power",
+        "technology" : "hardware",
+        "documentation" : { }
+      }, {
+        "id" : "2",
+        "tags" : "Element,Container,sensorstag",
+        "properties" : {
+          "structurizr.dsl.identifier" : "device.sensors"
+        },
+        "name" : "Physical Sensors",
+        "description" : "get data",
+        "relationships" : [ {
+          "id" : "4",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "6badace9-a9d6-4a8c-8c8a-595d9e372928"
+          },
+          "sourceId" : "2",
+          "destinationId" : "3",
+          "description" : "telemetry"
+        } ],
+        "technology" : "hardware",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "33",
+      "tags" : "Element,Software System,nstag",
+      "properties" : {
+        "structurizr.dsl.identifier" : "networkserver"
+      },
+      "name" : "Network Server",
+      "description" : "LoRaWAN NS",
+      "relationships" : [ {
+        "id" : "51",
+        "tags" : "Relationship,uplink",
+        "properties" : {
+          "structurizr.dsl.identifier" : "b6280ee7-1f4e-4194-85d2-3a46fd164ef3"
+        },
+        "sourceId" : "33",
+        "destinationId" : "39",
+        "description" : "uplinks",
+        "technology" : "http"
+      }, {
+        "id" : "53",
+        "tags" : "Relationship,downlink",
+        "properties" : {
+          "structurizr.dsl.identifier" : "9566bcc5-3b5e-44ad-993c-9059930ab8b3"
+        },
+        "sourceId" : "33",
+        "destinationId" : "15",
+        "description" : "downlink",
+        "technology" : "pkt-fwd"
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "34",
+        "tags" : "Element,Container,pktbridgetag",
+        "properties" : {
+          "structurizr.dsl.identifier" : "networkserver.pkt-bridge"
+        },
+        "name" : "Packet Bridge",
+        "description" : "IP to RF",
+        "technology" : "daemon",
+        "documentation" : { }
+      }, {
+        "id" : "35",
+        "tags" : "Element,Container,deduptag",
+        "properties" : {
+          "structurizr.dsl.identifier" : "networkserver.dedup"
+        },
+        "name" : "DeDup",
+        "description" : "LoRaWAN NS",
+        "technology" : "software",
+        "documentation" : { }
+      }, {
+        "id" : "36",
+        "tags" : "Element,Container,jointag",
+        "properties" : {
+          "structurizr.dsl.identifier" : "networkserver.join"
+        },
+        "name" : "Join",
+        "description" : "LoRaWAN NS",
+        "technology" : "software",
+        "documentation" : { }
+      }, {
+        "id" : "38",
+        "tags" : "Element,Container,adrtag",
+        "properties" : {
+          "structurizr.dsl.identifier" : "networkserver.adr"
+        },
+        "name" : "ADR",
+        "description" : "LoRaWAN NS",
+        "technology" : "software",
+        "documentation" : { }
+      }, {
+        "id" : "37",
+        "tags" : "Element,Container,fwdtag",
+        "properties" : {
+          "structurizr.dsl.identifier" : "networkserver.integrations"
+        },
+        "name" : "integrations",
+        "description" : "LoRaWAN NS",
+        "technology" : "software",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : {
+    "sections" : [ {
+      "content" : "# LoRaWAN Devices\n\n## Device Types\n- Class A, downlinks only in response to uplinks, lowest power consumption.\n- Class B, downlinks opened on periodic schedule, more power consumption.\n- Class C, downlinks always enabled, highest power consumption.\n\n## Pros and Cons\nLoRaWAN device advantages:\n- long-range and possibly low cost coverage\n- long battery life possible for no/low power deployments\n\nLoRaWAN device disadvantages:\n- low bandwidth applications only\n- finding coverage\n- SF12 Well - devices can fall into worst preforming spreading factor polluting the shared spectrum\n\n## Payload Design\n\nDesigning payloads for device side data replication for message delivery resilience. Do NOT depend on reliable transport mechanisms like Acks and Downlinks to ensure critical data is delivered.\n\n\n",
+      "format" : "Markdown",
+      "filename" : "device.md",
+      "order" : 1,
+      "title" : ""
+    }, {
+      "content" : "# LoRaWAN Overview\n\nThis page provides an overview of the primary LoRaWAN component\n- device - collects and reports measurements from the physical world \n- gateway - provides coverage for devices, forwarding uplinks and downlinks between device and network server\n- network server - provides device provisioning, data de-duplication, and applicaiton integration\n- application server - decrypts, decodes, and stores the data, provides dashboards, reports, alerts, and some device controls\n\n## What is LoRaWAN \n\nLoRaWAN is a Low-Power, Wide-Area Networking (LPWAN) technology to provide wireless bi-directional and secure connectivity to (typically) battery powered devices. LoRaWAN gateway \"coverage\" can provide connectivity to devices within several kilometers.\n\nLoRaWAN is:\n- [https://en.wikipedia.org/wiki/LoRa#LoRaWAN]()\n\n## Devices\n\nsome high level content and a link...\n\n## Gateways\n\nmore high level content\n  - and a link\n\n## Network Server\n  - key element, but not the true scope\n\n## Application Server\n  - can this doc platform scale\n\n\n",
+      "format" : "Markdown",
+      "filename" : "lorawan.md",
+      "order" : 2,
+      "title" : ""
+    } ],
+    "images" : [ {
+      "name" : "images/therm100.jpg",
+      "content" : "/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAD6AKgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD36iiisxhRRRQAUUUUAFFRzTxW0Mk88qRRRqWd3YKqgdSSegrxrxV+0LpWnTvbeHbI6k6nBuZSY4s/7I+836UWuB7TRXyxN+0J40kkLRx6XEv91bdj/NjTU/aC8bK4LDTHA/hNscH8mp8oH1TRXg/hr9oyCeZIPEulC3U4BurMllX3KHnH0JPtXtmm6nY6xp8V/p11Fc2kwzHLE2Qf/r+3ak00BcooopAFFFFABRRRQAUUUUwCiiigAooooAKKKKACiiud8eazJ4e8Ca1qkRImgtm8ojs7fKp/AkUJAeAfGn4kz6/rE/h7TLgrpFm+yYoeLmUHkk91B4A7kZ9McT4N8B6544vmt9Jtx5MWPOuZTtiiz6nufYZNc/bW8t9fQ20QLzTyLGo7lmOB+pr7d8KeHLPwn4bs9HskUJAg3uBzJIfvOfUk/wBB2qxHj9t+zVB5C/avEsvm4+YRWg2g+2Wyakk/Zpsyh8vxNOGxxutAR/6FXu9FMD438c/C7X/AuLi8SO60522reW+SoPYMDyp/T0NS/DH4h3fgbXkEkjvo1y4W7g6hR08xR2YfqOPTH1xqOn2uq6fcWF7As1rcIY5Y3HDKa+JfFmgv4Y8V6lozsWFrOURj/EnVT+KkUgPuCKWOeFJonV45FDI6nIYHkEe1eT/Ef4xXngXxQukQ6PBdobdJvMeYqfmJGMAe1a3wR1p9Z+Gdkkr75bGR7Rj3wuCv/jrAfhVbx78HIPHfiIavLrUtmwgSHyltw4+Uk5zuHrUrRjOE/wCGlNR/6Fu1/wDAlv8A4mj/AIaU1H/oW7X/AMCW/wDia1P+GabP/oZ5/wDwDH/xdJ/wzTZ/9DPP/wCAY/8Ai6rQRmf8NKaj/wBC3a/+BLf/ABNeo/DDx5ceP9Fvb+exjszb3HkhI5C+flBzyB61wP8AwzTZ/wDQzz/+AY/+Lr0b4d+Ao/h/pN3YRag96Lifzt7RCPb8oGMZPpSdgOxoooqRhRRRQAUUUUAFFFFABXBfGckfCfW8HqsQ/wDIqV3tcD8af+ST639Iv/Rq01uB8veB/wDkf/Dv/YTt/wD0Ytfb4r4g8Df8j/4d/wCwnbf+jFr7fFV1ELRRRTAD0r5G+OQA+LOqYH/LOD/0UtfXJ6V8jfHP/krGqf8AXOD/ANFLS6gerfs4/wDIiaj/ANhJv/Rcdex145+zj/yImo/9hNv/AEXHXsdABRRRTAKKKKAA9KSlPSkqJAFFFFIYUUUUAFFFFABXA/Gn/kk+t/SL/wBGrXfVwPxp/wCST619Iv8A0atNbgfL/gb/AJH/AMOf9hO2/wDRi19tTzxW0Ek8zqkUal3Zuigck18S+Bv+R/8ADv8A2E7b/wBGLX1b8TZXj8FzhGIDyorY7jOcfpRUlyxbNsLR9vWhSvbmaRlXvxcsIbp47TTprmJeBK0gj3fQYPFRw/F+1aZBPpE0cZPzMkwYgfTAz+deT0V5v1mp3PvFw/gOW3K/W7PpfTtStNWsI7yylEsEgyrD9QR2NfKXxz/5Kzqn/XOD/wBFLXt3whmkbTtTgZiY0lRlX0JBz/IV4j8c/wDkrOqf9c4P/RS16FKbnFSPiMfhlhcTOindL/hz1b9nH/kRNS/7Cbf+i46v/ED4yDwJ4kGkNobXuYEm80XXl/eJGMbD6etUP2cf+RF1L/sJt/6Ljq58RPg3L478TLq664lkBbpD5RtTJ90k5zuHrWnU4zmf+GmI/wDoVG/8GH/2uj/hpiP/AKFR/wDwP/8AtdQf8Mzz/wDQ1R/+AB/+OUf8Mzz/APQ1R/8AgAf/AI5TsBN/w0xH/wBCo/8A4H//AGuvSfhx4+/4WDpF5fjTjYi3uPJ2ed5m75Qc52jHWvMP+GZ5/wDoao//AAAP/wAcr034aeAH+H2jXlg+orfG4uPO3iHy9vygYxuPpSaA7aijFFRZjCiiigAooooAKKKKACuB+NP/ACSfWvpF/wCjVrvq4H40/wDJJ9b+kX/o1aa3A+XvA3/I/wDh3/sJ23/oxa+pvirN5XhFE25826ROvThm/pXy14G/5H/w5/2E7b/0YtfUPxa/5FW2/wCv5P8A0CSor/Az0MpV8bS9TxqiiivJP0s9V+D/APx66t/vxfyavFPjn/yVnVP+ucH/AKKWva/g/wD8eurf78X8mrxT45/8lZ1P/rnB/wCilr1MN/DR+c55/v8AU+X5I9V/Zx/5ETUf+wk3/ouOvZK8b/Zx/wCRE1H/ALCTf+i469krfqeSFFFFMAooooAKQ0tIamWwBRRRUjCiiigAooooAK4H40/8kn1r6Rf+jVrvq4H40/8AJJ9a+kX/AKNWmtwPl7wN/wAj/wCHf+wnbf8Aoxa+ovi1/wAira/9fyf+gSV8u+Bwf+E+8OY6/wBp23/o1a+ovi1/yKlr/wBfyf8AoElRX/hs9HKP9+pep41RRRXkn6UeqfB7/j31f/ei/k9eK/HP/krOqf8AXOD/ANFLXtPwe/1Osf70P/s9eL/HP/krOqf9c4P/AEUtephv4aPznPf+RhU+X5I9V/Zx/wCRE1L/ALCTf+i461PHnxitfAviIaRNo812xgWbzEnCD5iRjBB9KzP2clP/AAgOoN2OpuPyij/xqX4kfB2+8deKF1e31a3tUFukPlyRMxyCTnIPvW/U8kx/+GlbD/oWrr/wKX/4mj/hpXT/APoWrr/wKX/4msf/AIZq1X/oYrP/AL8N/jR/wzVqv/QxWf8A34b/ABosgNj/AIaV0/8A6Fq6/wDApf8A4mvRPh749h+IGk3V/BYSWa28/klHkD7vlBzwB615H/wzVqn/AEMVn/34b/GvUvhf4CufAGi3thc30N2bi484NEhXA2gYOfpQ0B3VFGKKjUYUUUUALijFFFXYQYoxRRRYAxXBfGfH/CpddJ/uw/8Ao5K72uE+MwDfCXXgf7kR/wDIyUwPlzwJ/wAlD8Nf9hW1/wDRq19Q/Fv/AJFS1/6/U/8AQJK+YPARx8RPDRP/AEFLb/0atfT/AMW/+RUtf+v1P/QJKxr/AMNno5R/v1P1PGaKKK8k/Sz1P4Pf6rWPrD/7PXi3xz/5Kzqn/XOD/wBFLXtHwe/1es/WH/2evGPjn/yVnVP+ucH/AKKWvUw38NH51nv/ACMKny/JHrP7OX/JPL//ALCsn/oqKvX68g/Zy/5J5f8A/YVk/wDRUVev10HkBRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABXBfGglfhJrpB/hhH/kaOu9rg/jN/wAkl13/AHIv/RyUAfL/AICx/wALE8Nbun9qW3/o1a+n/i3/AMipa/8AX6n/AKBJXzD4BUN8RPDYP/QUtj/5EWvp74t/8ipa/wDX6n/oElY1/wCGz0co/wB+p+p4zRRRXkn6Wem/CRikWrEd2hH/AKHXjnxy5+LGp/8AXKD/ANFLXsXwn/1Oq/8AXSH+UleO/HH/AJKvqn/XKD/0Utephv4aPzrPf+RhU+X/AKSj1v8AZzGPh5fe+qSf+ioq2/Hfxa0zwHrsOl3unXlzJLbLch4CuACzLjkjn5D+dYv7On/JO7z/ALCkn/ouKofix8J9e8d+KbXVNLu9Nhgiskt2W6kdWLB3bI2owxhh39a6DyCJv2kfDmBt0bVSe+fLH/s1N/4aR0DP/IE1LH+9H/jXFf8ADOPi/wD6CWh/9/5f/jVH/DOPi/8A6CWh/wDf+X/41QB2x/aR8P8AbRNTP1MY/wDZq73wH48svH2mXV9ZWlxbR283kss5XJO0HIwfevDP+GcfF/8A0EtD/wC/8v8A8ar134SeBNT8BaHfWWqXFpNLcXPmqbV2ZQNoHO5V54oA9CooooAKKKKACiiigAooooAK4L40f8kk13/dh/8AR0dd7XA/GoE/CPXcekB/8jx0AfMXgEhfiJ4bJ/6ClsP/ACItfT3xb/5FS1/6/U/9Akr5h8AhT8RPDW7p/adt+fmLivp74t/8ipa/9fqf+gSVjX/hs9HKP9+p+p4zRRRXkn6Wel/Cc/utW/34P5SV498cf+Ssap/1zg/9FLXsXwlUtHq+B/FB/KSvHfjl/wAlY1T/AK5wf+ilr1MN/DR+dZ7/AMjCp8v/AElHrv7On/JOrz/sJyf+i4q9cryH9nMk/Dy+B7apIB/36ir16ug8gKKKKACiiigAooooAKKKKACikoqeYBaKSijmAWuE+M3/ACSTXv8Aci/9HJXdV5f8c/EGmWHw/vdIuLtVv78J5FuOWYLIpJI7LweT3pp3A+c/AR/4uH4a/wCwpbf+jVr6g+Lf/IqWv/X6n/oElfLvgUlfiD4cbuNTtj/5FWvqH4t/8ira/wDX8n/oElZV/wCGz0co/wB+p+p41RRRXkn6Weq/B/8A49dW/wB+L+TV4p8c/wDkrOqf9c4P/RS17X8H/wDj11b/AH4v5NXinx0/5Kzqn/XOD/0Utephv4aPznPP9/qfL8ker/s5Of8AhAtQTsNTc/nFH/hXTeLvi14e8Fa0NK1SHUHuDEs2YIlZdpJxyWHPBrhv2dde0yPRb/QpLtE1KS7a4jgfgyJsUZU9yNpyOtSfFf4VeJPGfjBdU0o2QthapF++mKtuBYnjB45rfqeSa/8Aw0R4M/59tX/8B0/+Lo/4aI8Gf8+2r/8AgOn/AMXXmH/DPvjX+9pf/gSf/iaP+GfPGv8Ae0z/AMCT/wDE0wPUP+GiPBn/AD7av/4Dp/8AF12fgvxxpfjvTri90mO6jigm8lxcIFJbAPGCeOa+e/8Ahnzxr/f0z/wJP/xNeyfB/wAFat4H0C/stXNuZZ7rzU8iTeNuwDngdxQB6NRRRQAUUUUAJRRRWYwooqOaaO3gknmcJFGpd2PRVAyTQByPxG8fWngLw+bpws2oT5Sztyfvt3Y/7IyM/gO9fIeratqPiHVptR1K4kur24bLO3JPoAOwHQAVtfEDxfP418W3WpuzC2B8q0iP8EQPHHqep9zXq3wK+G0Zij8X6vCrkk/2fC68DH/LU+/ZfxPpVrQQ34XfBO6gurLxF4kaS2khkS4trFeH3KQytIe3I+719cdK734s3VudAtrXz4vtP2tZDFvG/bscZx1xyOaPHXj7+y2fS9JcG96TTdRD7D1b+X16eRzTS3MzzTyvLK5yzu24sfcmuLEV1rBH1WSZPVc44qo7JapdX/khlFFFcJ9kenfCS8tYf7RtpLiJJ5mjMcbMAz4DZwO/WqXxW+D0niu7n8Q6Ncn+1SiiS1lI2TBVAG0/wtgd+D7V58CVYEEgg8EV6X4I+IUiSx6Xrc2+Njtiu3PKnsHPce/bvx07cPXSSgz5LO8mqVJyxVJ3vuuui6dz5kdL/RdUKOs9lf2kvQ5SSJ1P5gg19S/CP4mL410w6fqLquuWiZk7C4Tp5gHr2I9SD34pfGj4bx+JdIk17TIANYs490gUc3MQHIPqwHT8vTHzf4f1298Na9Z6vYSFLi2kDgZwGHdT7EZB+td258gfdOKWs7QtZtfEGhWWr2Zzb3cKyqD1XPVT7g5B+laNQxhQKKBRHcBaKKK0EFFFFACUUUVmMK83+OGvNovw3uoY3Czai62i887Ty/8A46CPxr0ivAP2lb193h6xDfIRPMw9/kA/9mpxA8b8JaC/ifxZpmjISBdThXYfwoOWP4KCa+vvE+qQ+EfCRNkiRGNFtrSMDhTjA49AAT+FeB/s8WC3Pj65umxm0sXZc+rMq/yJr0n4vXjNeabZA/Kkbyn3JOB/6CfzqK8+WDaPQyrDLE4uFOW27+Wp5s7tJI0jsWdiSzE5JJ70lFFeSfpYUUUUAa3hiDT7nxJYwaof9Dkk2vzgEkfKCewzjPtXUfEPwbBopi1PTYvLs5DskiBJEb9iM9j+h+tcD05Fe6B/+En+GZkuV3yTWbMT3MiZwf8Avpc10UoqcXHqeFmlarhcTSxCl7jfK109fX/Ig+G/iB9Y0FrW4ctc2RCFieWQ/dP14I/AetfN/wAW/DCeFviDfW8Efl2d1i6t1AwAr5yB7Bgw/CvVvhfdvb+MEhB+W5hdGH0G4f8AoNUf2lNPXy9A1MABgZbdjjqOGH/s3512YafNDU+XzzDRw+Mko7PX7/8Agmj+znr5uvD2paFK+WsphNCD/ckzkD6MCf8AgVe2V8ufs83bwfEOe3BGy4sZAw91ZSP619R1rLc8kKBRQKS3AWiiitBBRRRQAlFFFZjCvnb9pWIjVPD0p6NDMv5Mp/rX0TXjn7RWkNd+DbDU0UE2N1tc45COMflkLTiBxf7OEqr4w1WIsNz2GQPXDr/jXb/FyNhr1jKR8rWu0H3DnP8AMV418I9dTw/8SdLnmdUt7hjays3AAcYBz2+baa+iPino732gRX8S7nsnJfA/gbAJ/AgfrWWIjeDserklaNLHQctnp960/E8aoooryz9GCiiigAr3PwsxsfhnBK4x5dpLLgjtlm/lXjuhaTJrmt2unRnaZnwzf3VHJP4AGvVPiNrEGjeGV0e2ISW5QRKin7kQ6/yC/n6V00PdUps+ezv9/Vo4OO7d35L+r/ccL8N4y/jiyI6IsjH/AL4I/qKm/aTnRdB0K3JG97qRwPYKAf8A0IVu/CXSD5t7q8iYUDyIiR1PVj+gH4mvM/2hddTUfG1tpcThk0232vg5xI/zEf8AfISunCxtC54PENaNTGtR+ykv1/Up/ABC3xOjP9yzmJ/Qf1r6sr52/Zu0h31PWtZZR5cUKWyMR1ZjuOD7BR+Yr6JreR4YUUUUgCiiigAooooAKKKKACsnxNocPiXw1qOjXGAl3C0YY/wt1VvwYA/hWtRQB8GX9ldaTqdxY3UbQ3VrK0ci9CrKcf0r60+GHjS28eeDVju2WTULdPs99E38fGA+PRh+uRXE/Hb4cyXyN4u0iDdNEmNQiQcug6SgdyBwfYA9jXifhPxXqXg7XodW0yQCRPlkib7kyHqrD0P6HBq9wWmx7J4x8Jz+GtRJQNJp8rZgl9P9lvcfr1rmq9w8K+M/DvxI0SRIdjOUAurCfG+M/TuM9GH6Gub174Uyq7TaHcB0PP2edsEfRuh/HH1NefVwzTvHY+1yziCnOKp4p2kuvR+vZ/geZ0Vt3Xg7xFZybJdHu2PrEnmD81yKZD4U8QTyrGmi3wYnALwMo/MgAVzcsr2se+sVQa5lNW9UZltcz2VzHc20rxTRncjocEGtrTdP1jxvroDzSTSHHnXEnIjT/PQV0Wi/CrUbiRX1eZLSHPMcZDyH8RwPrz9K7q9v/DXw58PGa5kjsrRc7V6yTvjoB1Zv5ewFdFKhKXxbHh5jnmHo3+r2lPa/RfPr6bDNc1fSvhx4Je5YAQWkflwRZ+aaQ9F+pOSfbJ7V8b6jqF1rGq3N/eSNLdXUrSyN/eZjnj/Cun+IfxB1Dx7rInmBg0+AkWlrnIQH+JvVj3P4V1/wP+HT65qyeJdTg/4llk+bdXXieYHg+6qefrgdjXoRVkfESk5Scpbs9p+F3hU+EfAljYzR7LyYfabr1Ejdj9AFH4V2dFFS9RBRRRQAUUUUAFFFFABRRRQAUUUUAIQGBBGQfWvn34ofBGVJZtb8I2++NsvPpqDlT3aIdx/s9R2z0H0HRQnYD4MtLu+0jUEuLWeezvIG+V42KOjDrz1HpXrnhr9ofW9PRINesYtTjHHnxnyZfxwNp/IV7L4v+GPhjxnulv7PyL4jAvLY7JPx7N+INeN65+zrr1pIz6LqVpfw5+VJcwyf1U/XI+lXdMR31n+0H4NuIQ1xFqVq/dHgDfqpNST/AB/8EQxM0TahOwHCJbYJ/MgV4Xc/CTx3aswfw5dPg4zEyOD/AN8k1HD8KfHVwcJ4avQf+mm1P/QiKXKtwPQ/EH7R15MjxeHtHS2yMC4vG3sPog4B+pNeO63r+q+I9Qa+1e+mvLluN8rfdHoo6KPYACvSdG/Z78V30inUriy02LjdufzXH0VeP1Feu+Efgz4W8LSx3UkLanfpgie7AKofVU6D6nJHrTukB5B8Nfgxf+J5YdU12OWy0YEMsbArLcj2HVVP97v265H07Z2dtp9nDZ2kKQW0KBI4oxhUUdABU9FS2AUUUUhhRRRQAUUUUAFFFFABRRRQAUUUUAFFFFIAooopgFJilooAKKKKQBRRRTAKKKKACiiigAooooAKKKKAP//Z",
+      "type" : "image/jpeg"
+    }, {
+      "name" : "images/tower.png",
+      "content" : "iVBORw0KGgoAAAANSUhEUgAAABcAAAAaCAYAAABctMd+AAADzUlEQVR4Xp1WXWwUVRReFCVRUMBoJPiCKd2dudtqUh6IMaQJITwYiCaWEJq2M9PSBEwfjD/hsYHIAzxQSaru3jtdSzVqTZQHwgvWSDQhBExjCJQ0xh9qtSZoIS0tMdrlfOeeuzs7LYT4cHbmnPOdb87c8zObKZfLGUinMmtb6z56zOn/RxC/p+G9NU7nn5bM8IOhb05Hylxszw0+kQ66HwmeL60mjnORb77qbe5dXiEPPfM2OcqBb35vrx9c35vpfaC7qfBQmmApAQ54xBHHH+CJfP0Gk8sT/2JyT2/jh/nmMGXwZYsafjhNlhT4gSOydzhOFbeDh+R697OFxzORF3daQzwCQJArNZD+H8k/HTndZIMG/FAZTbZvI88UocMe5eNNwAHf6Zm8xepv5BQiZHnSKdbJJOVA6WP8sLxuJn1eMnIyT2RbBN8HGx7KeBXvZYzSX4D8RybzShsZ7Jtr0Dv8opLgq0L4QaTiFzlzq1+GHxmL/iv09lyxXvRxkN2CQoV5hLtGmX8hKFKgSk8LcAo6nzN3Vvwn7G2N7z+VjMF9W+OJRyVmFuQ3oaBHqXeWhfYMF9AF6Fnck0zj4SDHVWIWUDQUNZQacUK2QUA+TeTxGJRqQewxUOds5qL55jsLjkdCT++j+6/Z75uzjM8XXxD/GB9LXjcK+RVkPsSKMq/LmR+FTgP1CfSuvPaoOL9JgJOJoKGQk2Q+5YcpfUTi37R8epAyi3ex0zM/4LW6GvUz5JhjAGVlO6AfZ88Dgiv0mqwJ74aP9EtiezXTU3d8BSk/w0DdEPBRUO+7TCS7Q4msKZH4oPMB59rYzUygzE+oBQMo+1YJnI2ycdYFsk/Fz4UyKBT8Fq7QYa/BUVwonUensBu2ipMKUqDiDSd3ChYQ7Z0L9jVNn+DelURGk1hZfkOE/9DZavYEADXZKH3AveZ+1b8SNlyhww5/Eo/45D6qONIir+nG/mOXpa2R/kzs8+ljTMoiAwRVr/Z3RUals2w3iADnpjctiwyQwI97JHiShuulUPZPRTBodr1OQgc+zbEkeVdWb6CAGc5KxTvtYtLfJ8mp9c5juOAX2wzi0ly1Cu8WfcYG0LnaL9RtJqQiUgFfo/tfbPZ6Dl8cN6GIQ/xdyasfDpZxuS5wm2bjVcBgwdHgmCqOdxOWWxnxS5J3e4V1VJy/E+QQGnWzIxngRM58ogavzA2sj0Xk+BYmgRgo/N1IkyYFKxdvlYyjZE7VkHf4ZmsCMEXj+3Ka6F5Cx/EK4hwH+CrkdpvFAySfh3UDT6aD70cQh3jqpJLr+ztoNyNxpzWAvQAAAABJRU5ErkJggg==",
+      "type" : "image/png"
+    }, {
+      "name" : "images/tower.svg",
+      "content" : "PHN2ZyB3aWR0aD0iMjNweCIgaGVpZ2h0PSIyNnB4IiB2aWV3Qm94PSIwIDAgMjMgMjYiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PCEtLSBHZW5lcmF0b3I6IFNrZXRjaCA1NS4yICg3ODE4MSkgLSBodHRwczovL3NrZXRjaGFwcC5jb20gLS0+PHRpdGxlPlNpdGVzIEljb24gQWN0aXZhdGVkPC90aXRsZT48ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz48ZyBpZD0iQmF0Y2gtNC1Qb3N0LVByZXMiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGlkPSJJbmZyYXN0cnVjdHVyZS1hbmQtU29sdXRpb25zLVYyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTE4LjAwMDAwMCwgLTI4MDAuMDAwMDAwKSIgc3Ryb2tlPSIjNjEyQTlDIiBzdHJva2Utd2lkdGg9IjIiPjxnIGlkPSJTaXRlcy1JY29uLUFjdGl2YXRlZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTE5LjAwMDAwMCwgMjgwMS4wMDAwMDApIj48ZyBpZD0iR3JvdXAtMTMiPjxnPjxwYXRoIGQ9Ik0xMy4xNzM4MDIyLDYuOTE3MjM2MDIgQzEzLjE3MzgwMjIsOC40MjQyMjM2IDExLjk3NjgwMjIsOS42NDU2NTIxNyAxMC40OTk5NTQzLDkuNjQ1NjUyMTcgQzkuMDIzMTA2NTIsOS42NDU2NTIxNyA3LjgyNjEwNjUyLDguNDI0MjIzNiA3LjgyNjEwNjUyLDYuOTE3MjM2MDIgQzcuODI2MTA2NTIsNS40MTA3MTQyOSA5LjAyMzEwNjUyLDQuMTg4ODE5ODggMTAuNDk5OTU0Myw0LjE4ODgxOTg4IEMxMS45NzY4MDIyLDQuMTg4ODE5ODggMTMuMTczODAyMiw1LjQxMDcxNDI5IDEzLjE3MzgwMjIsNi45MTcyMzYwMiBaIiBpZD0iU3Ryb2tlLTEiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjwvcGF0aD48cG9seWxpbmUgaWQ9IlN0cm9rZS0zIiBzdHJva2UtbGluZWpvaW49ImJldmVsIiBwb2ludHM9IjE0LjAyMjQzMDQgMTUuNjQxNDU5NiAxLjM2OTQ3MzkxIDI0LjIyNSAxMC40OTk5MDg3IDEwLjI0OTg0NDcgMTkuNjMwMzQzNSAyNC4yMjUgNi45NjY0MzA0MyAxNS42NTgyMjk4Ij48L3BvbHlsaW5lPjxwYXRoIGQ9Ik0yLjY3NDI1ODcsMC4zMjkzMDEyNDIgQzEuMDIxNjUsMi4wMTU2MzY2NSAtNC41NjUyMTczOWUtMDUsNC4zNDQ4MjkxOSAtNC41NjUyMTczOWUtMDUsNi45MTc2NTUyOCBDLTQuNTY1MjE3MzllLTA1LDkuNDkwMDE1NTMgMS4wMjIxMDY1MiwxMS44MTkyMDgxIDIuNjc0MjU4NywxMy41MDU1NDM1IiBpZD0iU3Ryb2tlLTUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjwvcGF0aD48cGF0aCBkPSJNNS43MzkzLDExLjMwOTI1NDcgQzQuNjM3NzEzMDQsMTAuMTg1MTg2MyAzLjk1NjU4MjYxLDguNjMyNTQ2NTggMy45NTY1ODI2MSw2LjkxNzMyOTE5IEMzLjk1NjU4MjYxLDUuMjAyMTExOCA0LjYzNzcxMzA0LDMuNjQ5NDcyMDUgNS43MzkzLDIuNTI1NDAzNzMiIGlkPSJTdHJva2UtNyIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PC9wYXRoPjxwYXRoIGQ9Ik0xOC4zMjU3NDEzLDEzLjUwNTQwMzcgQzE5Ljk3Nzg5MzUsMTEuODE5MDY4MyAyMS4wMDAwNDU3LDkuNDg5ODc1NzggMjEuMDAwMDQ1Nyw2LjkxNzUxNTUzIEMyMS4wMDAwNDU3LDQuMzQ0Njg5NDQgMTkuOTc4MzUsMi4wMTU0OTY4OSAxOC4zMjU3NDEzLDAuMzI5MTYxNDkxIiBpZD0iU3Ryb2tlLTkiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjwvcGF0aD48cGF0aCBkPSJNMTUuMjYwNywyLjUyNTQ1MDMxIEMxNi4zNjIyODcsMy42NDk1MTg2MyAxNy4wNDM0MTc0LDUuMjAyMTU4MzkgMTcuMDQzNDE3NCw2LjkxNzM3NTc4IEMxNy4wNDM0MTc0LDguNjMyNTkzMTcgMTYuMzYyMjg3LDEwLjE4NTIzMjkgMTUuMjYwNywxMS4zMDkzMDEyIiBpZD0iU3Ryb2tlLTExIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48L3BhdGg+PC9nPjwvZz48L2c+PC9nPjwvZz48L3N2Zz4=",
+      "type" : "image/svg+xml"
+    } ]
+  },
+  "views" : {
+    "systemContextViews" : [ {
+      "key" : "LoRaWAN",
+      "order" : 1,
+      "description" : "LoraWan Packet Flow",
+      "softwareSystemId" : "1",
+      "dimensions" : {
+        "width" : 2010,
+        "height" : 1479
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "33",
+        "x" : 1360,
+        "y" : 200
+      }, {
+        "id" : "1",
+        "x" : 200,
+        "y" : 890
+      }, {
+        "id" : "15",
+        "x" : 235,
+        "y" : 210
+      }, {
+        "id" : "39",
+        "x" : 1330,
+        "y" : 935
+      } ],
+      "relationships" : [ {
+        "id" : "50",
+        "vertices" : [ {
+          "x" : 995,
+          "y" : 325
+        } ]
+      }, {
+        "id" : "51",
+        "vertices" : [ {
+          "x" : 1660,
+          "y" : 735
+        } ]
+      }, {
+        "id" : "52",
+        "vertices" : [ {
+          "x" : 1545,
+          "y" : 740
+        } ]
+      }, {
+        "id" : "53",
+        "vertices" : [ {
+          "x" : 1020,
+          "y" : 405
+        } ]
+      }, {
+        "id" : "43",
+        "vertices" : [ {
+          "x" : 320,
+          "y" : 680
+        } ]
+      }, {
+        "id" : "57",
+        "vertices" : [ {
+          "x" : 465,
+          "y" : 715
+        } ]
+      }, {
+        "id" : "47"
+      }, {
+        "id" : "59",
+        "vertices" : [ {
+          "x" : 935,
+          "y" : 1130
+        } ]
+      }, {
+        "id" : "49",
+        "vertices" : [ {
+          "x" : 955,
+          "y" : 1025
+        } ]
+      } ]
+    } ],
+    "containerViews" : [ {
+      "key" : "device_CONTAINERS",
+      "order" : 2,
+      "description" : "LoraWan Device",
+      "softwareSystemId" : "1",
+      "dimensions" : {
+        "width" : 2265,
+        "height" : 2332
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "33",
+        "x" : 1570,
+        "y" : 214
+      }, {
+        "id" : "11",
+        "x" : 835,
+        "y" : 786
+      }, {
+        "id" : "2",
+        "x" : 805,
+        "y" : 1651
+      }, {
+        "id" : "3",
+        "x" : 815,
+        "y" : 1261
+      }, {
+        "id" : "14",
+        "x" : 250,
+        "y" : 1696
+      }, {
+        "id" : "15",
+        "x" : 795,
+        "y" : 199
+      }, {
+        "id" : "5",
+        "x" : 235,
+        "y" : 1281
+      }, {
+        "id" : "39",
+        "x" : 1615,
+        "y" : 1134
+      }, {
+        "id" : "8",
+        "x" : 220,
+        "y" : 786
+      } ],
+      "relationships" : [ {
+        "id" : "50",
+        "vertices" : [ {
+          "x" : 1400,
+          "y" : 234
+        } ]
+      }, {
+        "id" : "51",
+        "vertices" : [ {
+          "x" : 1910,
+          "y" : 651
+        } ]
+      }, {
+        "id" : "52",
+        "vertices" : [ {
+          "x" : 1710,
+          "y" : 804
+        } ]
+      }, {
+        "id" : "41",
+        "vertices" : [ {
+          "x" : 970,
+          "y" : 659
+        }, {
+          "x" : 1009,
+          "y" : 525
+        } ]
+      }, {
+        "id" : "53",
+        "vertices" : [ {
+          "x" : 1440,
+          "y" : 374
+        } ]
+      }, {
+        "id" : "10",
+        "vertices" : [ {
+          "x" : 400,
+          "y" : 1191
+        } ]
+      }, {
+        "id" : "4"
+      }, {
+        "id" : "13",
+        "vertices" : [ {
+          "x" : 755,
+          "y" : 881
+        } ]
+      }, {
+        "id" : "6",
+        "vertices" : [ {
+          "x" : 770,
+          "y" : 1381
+        } ]
+      }, {
+        "id" : "12",
+        "vertices" : [ {
+          "x" : 740,
+          "y" : 1021
+        } ]
+      }, {
+        "id" : "7",
+        "vertices" : [ {
+          "x" : 750,
+          "y" : 1466
+        } ]
+      }, {
+        "id" : "45",
+        "vertices" : [ {
+          "x" : 1465,
+          "y" : 1039
+        }, {
+          "x" : 1570,
+          "y" : 844
+        } ]
+      }, {
+        "id" : "56",
+        "vertices" : [ {
+          "x" : 1090,
+          "y" : 649
+        } ]
+      }, {
+        "id" : "9",
+        "vertices" : [ {
+          "x" : 510,
+          "y" : 1181
+        } ]
+      }, {
+        "id" : "58"
+      }, {
+        "id" : "48",
+        "vertices" : [ {
+          "x" : 1425,
+          "y" : 1439
+        } ]
+      } ]
+    }, {
+      "key" : "gateway_CONTAINERS",
+      "order" : 3,
+      "description" : "LoraWan Gateway",
+      "softwareSystemId" : "15",
+      "dimensions" : {
+        "width" : 2215,
+        "height" : 2325
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "23",
+        "x" : 219,
+        "y" : 219
+      }, {
+        "id" : "1",
+        "x" : 545,
+        "y" : 1735
+      }, {
+        "id" : "26",
+        "x" : 225,
+        "y" : 625
+      }, {
+        "id" : "16",
+        "x" : 1519,
+        "y" : 231
+      }, {
+        "id" : "17",
+        "x" : 885,
+        "y" : 220
+      }, {
+        "id" : "29",
+        "x" : 219,
+        "y" : 1064
+      }, {
+        "id" : "19",
+        "x" : 860,
+        "y" : 655
+      }, {
+        "id" : "21",
+        "x" : 1544,
+        "y" : 661
+      }, {
+        "id" : "32",
+        "x" : 1105,
+        "y" : 1060
+      } ],
+      "relationships" : [ {
+        "id" : "18",
+        "vertices" : [ {
+          "x" : 1452,
+          "y" : 362
+        } ]
+      }, {
+        "id" : "28"
+      }, {
+        "id" : "27",
+        "vertices" : [ {
+          "x" : 529,
+          "y" : 559
+        } ]
+      }, {
+        "id" : "25",
+        "vertices" : [ {
+          "x" : 785,
+          "y" : 310
+        } ]
+      }, {
+        "id" : "24",
+        "vertices" : [ {
+          "x" : 770,
+          "y" : 395
+        } ]
+      }, {
+        "id" : "42",
+        "vertices" : [ {
+          "x" : 589,
+          "y" : 1439
+        } ]
+      }, {
+        "id" : "22"
+      }, {
+        "id" : "55",
+        "vertices" : [ {
+          "x" : 714,
+          "y" : 1429
+        } ]
+      }, {
+        "id" : "20"
+      }, {
+        "id" : "31"
+      }, {
+        "id" : "30",
+        "vertices" : [ {
+          "x" : 534,
+          "y" : 984
+        } ]
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "devtag",
+          "background" : "#008000",
+          "color" : "#ffffff",
+          "fontSize" : 36,
+          "shape" : "Hexagon"
+        }, {
+          "tag" : "gwtag",
+          "background" : "#dda0dd",
+          "color" : "#ffffff",
+          "fontSize" : 22,
+          "shape" : "Pipe",
+          "icon" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAaCAYAAABctMd+AAADzUlEQVR4Xp1WXWwUVRReFCVRUMBoJPiCKd2dudtqUh6IMaQJITwYiCaWEJq2M9PSBEwfjD/hsYHIAzxQSaru3jtdSzVqTZQHwgvWSDQhBExjCJQ0xh9qtSZoIS0tMdrlfOeeuzs7LYT4cHbmnPOdb87c8zObKZfLGUinMmtb6z56zOn/RxC/p+G9NU7nn5bM8IOhb05Hylxszw0+kQ66HwmeL60mjnORb77qbe5dXiEPPfM2OcqBb35vrx9c35vpfaC7qfBQmmApAQ54xBHHH+CJfP0Gk8sT/2JyT2/jh/nmMGXwZYsafjhNlhT4gSOydzhOFbeDh+R697OFxzORF3daQzwCQJArNZD+H8k/HTndZIMG/FAZTbZvI88UocMe5eNNwAHf6Zm8xepv5BQiZHnSKdbJJOVA6WP8sLxuJn1eMnIyT2RbBN8HGx7KeBXvZYzSX4D8RybzShsZ7Jtr0Dv8opLgq0L4QaTiFzlzq1+GHxmL/iv09lyxXvRxkN2CQoV5hLtGmX8hKFKgSk8LcAo6nzN3Vvwn7G2N7z+VjMF9W+OJRyVmFuQ3oaBHqXeWhfYMF9AF6Fnck0zj4SDHVWIWUDQUNZQacUK2QUA+TeTxGJRqQewxUOds5qL55jsLjkdCT++j+6/Z75uzjM8XXxD/GB9LXjcK+RVkPsSKMq/LmR+FTgP1CfSuvPaoOL9JgJOJoKGQk2Q+5YcpfUTi37R8epAyi3ex0zM/4LW6GvUz5JhjAGVlO6AfZ88Dgiv0mqwJ74aP9EtiezXTU3d8BSk/w0DdEPBRUO+7TCS7Q4msKZH4oPMB59rYzUygzE+oBQMo+1YJnI2ycdYFsk/Fz4UyKBT8Fq7QYa/BUVwonUensBu2ipMKUqDiDSd3ChYQ7Z0L9jVNn+DelURGk1hZfkOE/9DZavYEADXZKH3AveZ+1b8SNlyhww5/Eo/45D6qONIir+nG/mOXpa2R/kzs8+ljTMoiAwRVr/Z3RUals2w3iADnpjctiwyQwI97JHiShuulUPZPRTBodr1OQgc+zbEkeVdWb6CAGc5KxTvtYtLfJ8mp9c5juOAX2wzi0ly1Cu8WfcYG0LnaL9RtJqQiUgFfo/tfbPZ6Dl8cN6GIQ/xdyasfDpZxuS5wm2bjVcBgwdHgmCqOdxOWWxnxS5J3e4V1VJy/E+QQGnWzIxngRM58ogavzA2sj0Xk+BYmgRgo/N1IkyYFKxdvlYyjZE7VkHf4ZmsCMEXj+3Ka6F5Cx/EK4hwH+CrkdpvFAySfh3UDT6aD70cQh3jqpJLr+ztoNyNxpzWAvQAAAABJRU5ErkJggg=="
+        }, {
+          "tag" : "nstag",
+          "background" : "#9932cc",
+          "color" : "#ffffff",
+          "fontSize" : 22,
+          "shape" : "Cylinder"
+        }, {
+          "tag" : "astag",
+          "background" : "#556b2f",
+          "color" : "#ffffff",
+          "fontSize" : 24,
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "sensorstag",
+          "background" : "#008000",
+          "color" : "#ffffff",
+          "fontSize" : 22,
+          "shape" : "Hexagon",
+          "icon" : "data:image/jpeg;base64,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"
+        }, {
+          "tag" : "antennatag",
+          "background" : "#da70d6",
+          "color" : "#000000",
+          "shape" : "Component"
+        }, {
+          "tag" : "radiotag",
+          "background" : "#ee82ee",
+          "color" : "#000000",
+          "shape" : "Component"
+        }, {
+          "tag" : "modemtag",
+          "background" : "#e0b0ff",
+          "color" : "#000000",
+          "shape" : "Component"
+        }, {
+          "tag" : "cputag",
+          "background" : "#90ee90",
+          "color" : "#000000",
+          "shape" : "Component"
+        }, {
+          "tag" : "powertag",
+          "background" : "#cd5c5c",
+          "color" : "#ffffff",
+          "shape" : "Component"
+        }, {
+          "tag" : "gpstag",
+          "background" : "#87ceeb",
+          "color" : "#000000",
+          "shape" : "Component"
+        }, {
+          "tag" : "pktfwdtag",
+          "background" : "#df73ff",
+          "color" : "#ffffff",
+          "shape" : "Component"
+        }, {
+          "tag" : "backhaultag",
+          "background" : "#4e2a84",
+          "color" : "#ffffff",
+          "shape" : "Component"
+        } ],
+        "relationships" : [ {
+          "tag" : "uplink",
+          "thickness" : 4,
+          "color" : "#008000",
+          "dashed" : false
+        }, {
+          "tag" : "downlink",
+          "thickness" : 4,
+          "color" : "#ff0000",
+          "dashed" : false
+        }, {
+          "tag" : "logical",
+          "thickness" : 4,
+          "color" : "#0000ff",
+          "dashed" : true
+        } ]
+      },
+      "terminology" : { },
+      "metadataSymbols" : "SquareBrackets",
+      "lastSavedView" : "LoRaWAN"
+    }
+  }
+}

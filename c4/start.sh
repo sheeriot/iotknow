@@ -26,3 +26,8 @@ docker run --name land81 -it --rm -p 8081:8080 \
 docker run --name software82 -it --rm -p 8082:8080 \
     -v /home/kris/dev/iotknow/c4surveyor/software:/usr/local/structurizr \
     structurizr/lite
+
+# lorawan
+docker run --name lorawan82 -it --rm -p 8082:8080 \
+    -v /home/kris/dev/iotknow/lorawan:/usr/local/structurizr \
+    structurizr/lite

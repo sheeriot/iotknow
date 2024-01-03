@@ -6,8 +6,8 @@ workspace {
         device = softwareSystem "LoRaWAN Device" "with sensors" device
         gateway = softwareSystem "LoRaWAN Gateway" "RF Coverage" gateway
         ran = softwareSystem "Radio Access Network"
-        networkserver = softwareSystem "Network Server" "application" networkserver {
-            # !docs docs
+        networkserver = softwareSystem "Network Server" " " {
+            !docs docs
             ns = container NS "device management, de-dup" LoRaWAN ns
             joinserver = container joinserver "device authentication" LoRaWAN joinserver
         }
