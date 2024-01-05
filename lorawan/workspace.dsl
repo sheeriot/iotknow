@@ -1,4 +1,4 @@
-workspace {
+workspace "LoRaWAN Primer" "Quick-Start and Shared Reference Content for LoRaWANers" {
 
     !identifiers hierarchical
     !docs docs
@@ -11,8 +11,8 @@ workspace {
                 sensors -> this telemetry
             }
             modem = container "Modem" "communicate" "hardware" modemtag {
-                mcu -> this comm
-                this -> mcu
+                mcu -> this comm-out
+                this -> mcu comm-in
             }
             radio = container "Radio" "RF" "chip" radiotag {
                 modem -> this out
