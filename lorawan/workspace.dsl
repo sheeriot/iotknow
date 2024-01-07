@@ -90,7 +90,7 @@ workspace "LoRaWAN Primer" "Quick-Start and Shared Reference Content for LoRaWAN
 
         styles {
             relationship uplink {
-                color green
+                color LimeGreen
                 dashed false
                 thickness 4
             }
@@ -107,20 +107,22 @@ workspace "LoRaWAN Primer" "Quick-Start and Shared Reference Content for LoRaWAN
             element devtag {
                 background green
                 color white
-                fontSize 36
+                fontSize 24
                 shape Hexagon
             }
             element gwtag {
-                background #DDA0DD
+                // periwinkle
+                background #CCCCFF
                 color #ffffff
-                fontSize 22
+                fontSize 24
                 shape Pipe
                 icon docs/images/tower.png
             }
             element nstag {
-                background darkorchid
+                // wisteria
+                background #BDB5D5
                 color #ffffff
-                fontSize 22
+                fontSize 24
                 shape Cylinder
             }
             element astag {
@@ -132,7 +134,7 @@ workspace "LoRaWAN Primer" "Quick-Start and Shared Reference Content for LoRaWAN
             element sensorstag {
                 background green
                 color white
-                fontSize 22
+                fontSize 24
                 shape Hexagon
                 icon docs/images/therm100.jpg
             }
@@ -173,13 +175,13 @@ workspace "LoRaWAN Primer" "Quick-Start and Shared Reference Content for LoRaWAN
                 # icon docs/images/antenna.png
             }
             element pktfwdtag {
-                background #DF73FF
+                # background #DF73FF
                 color white
                 shape Component
                 # icon docs/images/antenna.png
             }
             element backhaultag {
-                background #4E2A84
+                # background #4E2A84
                 color white
                 shape Component
                 # icon docs/images/antenna.png
