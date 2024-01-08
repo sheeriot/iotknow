@@ -21,6 +21,7 @@ workspace "RF Field Surveyor" "A Django (python) web application for inspecting 
             worker = container "Surveyor_Worker" "Django/Python" "Docker" workertag {
                 -> redis get jobs
                 -> redis set results
+                -> database
             }
         }
         
@@ -38,15 +39,39 @@ workspace "RF Field Surveyor" "A Django (python) web application for inspecting 
             -> surveyor.nginx "Web Access" "https" webaccessreltag 
         }
 
-        # device.antenna -> gateway.antenna uplinks RF uplink
-        # device.mcu -> networkserver.dedup "LoRaWAN\nMAC" uplink/downlink logical
-        # device.mcu -> applicationserver reports uplink logical
-        # gateway -> networkserver uplinks pkt-fwd uplink
-        # networkserver -> applicationserver uplinks http uplink
-        # applicationserver -> networkserver downlink http downlink
-        # networkserver -> gateway downlink pkt-fwd downlink
-        # gateway.antenna -> device.antenna downlinks RF downlink
-        # applicationserver -> device.mcu control downlink logical
+        deploymentEnvironment Dev {
+            deploymentNode iotdash-dev-surveyor "Surveyor" "development linux vm" Ubuntu22.04 {
+                # surveyor1 = softwareSystemInstance surveyor [] surveyor1tag
+                suveyor1_webapp = containerInstance surveyor.webapp
+                surveyor1_worker = containerInstance surveyor.worker
+                surveyor1_nginx = containerInstance surveyor.nginx
+                surveyor1_database = containerInstance surveyor.database
+                surveyor1_redis = containerInstance surveyor.redis
+            }
+        }
+
+        deploymentEnvironment QA {
+            deploymentNode iotdash-qa-surveyor "Surveyor" "QA Linux VM" Ubuntu22.04 {
+                # surveyor1 = softwareSystemInstance surveyor [] surveyor1tag
+                suveyor2_webapp = containerInstance surveyor.webapp
+                surveyor2_worker = containerInstance surveyor.worker
+                surveyor2_nginx = containerInstance surveyor.nginx
+                surveyor2_database = containerInstance surveyor.database
+                surveyor2_redis = containerInstance surveyor.redis
+            }
+        }
+
+        deploymentEnvironment Prod {
+            deploymentNode iotdash-prod-surveyor "Surveyor" "Production Linux VM" Ubuntu22.04 {
+                # surveyor1 = softwareSystemInstance surveyor [] surveyor1tag
+                suveyor_webapp = containerInstance surveyor.webapp
+                surveyor_worker = containerInstance surveyor.worker
+                surveyor_nginx = containerInstance surveyor.nginx
+                surveyor_database = containerInstance surveyor.database
+                surveyor_redis = containerInstance surveyor.redis
+            }
+        }
+
     }
 
     views {
@@ -57,21 +82,20 @@ workspace "RF Field Surveyor" "A Django (python) web application for inspecting 
         container influxdb "InfluxDB" "InfluxDB - Time Series Database" {
             include *
         }
+        deployment surveyor Dev surveyor1_view "Surveyor1 - Development" {
+            include *
+        }    
+        deployment surveyor QA surveyor2_view "Surveyor2 - QA" {
+            include *
+        }
+        deployment surveyor Prod surveyor_view "Surveyor - Production" {
+            include *
+        }
         styles {
-            relationship uplink {
-                color green
+            relationship "Relationship" {
+                # color green
                 dashed false
-                thickness 4
-            }
-            relationship downlink {
-                color red
-                dashed false
-                thickness 4
-            }
-            relationship logical {  
-                color blue
-                dashed true
-                thickness 4
+                thickness 3
             }
             element webapptag {
                 // from surveyor header
@@ -86,40 +110,43 @@ workspace "RF Field Surveyor" "A Django (python) web application for inspecting 
                 // from surveyor header
                 background #5156b9
                 color white
-                fontSize 24
-                # shape WebBrowser
                 icon docs/icons/surveyor50b.png
             }
 
             element databasetag {
                 background #84cef4
                 color #ffffff
-                fontSize 22
+                height 250
+                width 250
                 shape Cylinder
                 icon docs/icons/sqlite_icon.png
             }
             element redistag {
                 background #ff6156
-                fontSize 24
+                height 250
+                width 250
                 shape Pipe
                 icon docs/icons/redis_icon.png
             }
             element nginxtag {
                 background #00e95e
-                fontSize 24
+                height 250
+                width 250
                 shape Ellipse
                 icon docs/icons/nginx_icon.png
             }
             element influxdbtag {
                 background #9394FF
-                fontSize 24
                 shape Cylinder
                 icon docs/icons/influxdb_icon.png
             }
+            element influxbuckettag {
+                background #5efff7
+                shape Cylinder
+                icon docs/icons/bucket_icon.png
+            }
             element fieldtechtag {
-                # background darkolivegreen
-                # color white
-                fontSize 24
+                background plum
                 shape Robot
             }
         }
