@@ -22,6 +22,14 @@ This site also documents the Surveyor software application. This diagram provide
 
 ![RF Field Surveyor - Software Block Diagram (Containers)](diagrams/structurizr-1-RFFieldSurveyor.png)
 
+#### InfluxDB Data Source
+
 The Surveyor currently uses an InfluxDB as the source for all queries and reports.
 
+InfluxDB uses an "Organization" to provide multi-tenancy. 
+
+Within the InfluxDB **Organzation**, Measurements tables are stored in Buckets (database).
+
 ![RF Field Surveyor - Queries a Measurement inside a InfluxDB Bucket inside an Organization](diagrams/structurizr-1-InfluxDB.png)
+
+To use Surveyor, you will need setup and/or provide access to Influx Sources. This is only available to Admin users.

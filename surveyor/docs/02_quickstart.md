@@ -52,5 +52,11 @@ The Surveyor currently offers two distinct report types:
 
   ![Surveyor - Bucket Devices Report](images/surveyor_bucketdevice.png)
 
+### Organizations
 
+Note that all of the following have their own Organzation construct to enable multi-tenancy:
+- Everynet Network Server - uses Organzations for administrative domains
+- InfluxDB - uses Organizations for administrative domains
+- Surveyor - uses Organizations for administrative domains
 
+Note that these Organizations on each system are distinct and seperate. They each are intending to enable the same design function, partitioned user groups.
