@@ -8,20 +8,26 @@ workspace "RF Field Surveyor" "A Django (python) web application for inspecting 
         # influxdb = softwareSystem "InfluxDB" "a time-series database" influxdbtag
 
         surveyor = softwareSystem "RF Field Surveyor" "RF Coverage" webapptag {
-            nginx = container "Nginx" "Web Server\nSSL Proxy" "Docker" nginxtag
-            database = container "SQLite3" "Database" "text" databasetag
-            redis = container "Redis" "Cache" "Docker" redistag
-            webapp = container "Surveyor" "Django/Python" "Docker" webapptag {
-                nginx -> this
-                -> database
-                -> redis set jobs
-                -> redis get results
-                # -> influxdb.source                
+            group ComposeNginx {
+                nginx = container "Nginx" "Web Server\nSSL Proxy" "Docker" nginxtag
             }
-            worker = container "Surveyor_Worker" "Django/Python" "Docker" workertag {
-                -> redis get jobs
-                -> redis set results
-                -> database
+            group ComposeSurveyor {
+                database = container "SQLite3" "Database" "text" databasetag
+                redis = container "Redis" "Cache" "Docker" redistag
+                webapp = container "Surveyor" "Django/Python" "Docker" webapptag {
+                    nginx -> this gunicorn
+                    -> database
+                    -> redis set jobs
+                    -> redis get results             
+                }
+                worker = container "Surveyor_Worker" "Django/Python" "Docker" workertag {
+                    -> redis get jobs
+                    -> redis set results
+                    -> database
+                }
+            }
+            staticfiles = container "Static Files" "" "" staticfilestag {
+                nginx -> this "static\nfiles"
             }
         }
         
@@ -63,7 +69,6 @@ workspace "RF Field Surveyor" "A Django (python) web application for inspecting 
 
         deploymentEnvironment Prod {
             deploymentNode iotdash-prod-surveyor "Surveyor" "Production Linux VM" Ubuntu22.04 {
-                # surveyor1 = softwareSystemInstance surveyor [] surveyor1tag
                 suveyor_webapp = containerInstance surveyor.webapp
                 surveyor_worker = containerInstance surveyor.worker
                 surveyor_nginx = containerInstance surveyor.nginx
@@ -71,7 +76,17 @@ workspace "RF Field Surveyor" "A Django (python) web application for inspecting 
                 surveyor_redis = containerInstance surveyor.redis
             }
         }
-
+        deploymentEnvironment Brazil-QA {
+            deploymentNode iotdash-qa-surveyorbrazil "Surveyor" "Production Linux VM" Ubuntu22.04 {
+                softwareSystemInstance surveyor "" surveyortag {
+                # suveyor_webapp = containerInstance surveyor.webapp
+                # surveyor_worker = containerInstance surveyor.worker
+                # surveyor_nginx = containerInstance surveyor.nginx
+                # surveyor_database = containerInstance surveyor.database
+                # surveyor_redis = containerInstance surveyor.redis
+                }
+            }
+        }
     }
 
     views {
@@ -90,6 +105,7 @@ workspace "RF Field Surveyor" "A Django (python) web application for inspecting 
         }
         deployment surveyor Prod surveyor_view "Surveyor - Production" {
             include *
+
         }
         styles {
             relationship "Relationship" {
@@ -134,6 +150,14 @@ workspace "RF Field Surveyor" "A Django (python) web application for inspecting 
                 width 250
                 shape Ellipse
                 icon docs/icons/nginx_icon.png
+            }
+            element staticfilestag {
+                background #efe4c6
+                height 200
+                width 200
+                fontsize 18
+                shape Folder
+                icon docs/icons/documents_icon.png
             }
             element influxdbtag {
                 background #9394FF

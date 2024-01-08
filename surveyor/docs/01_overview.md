@@ -16,3 +16,12 @@ For example, the histogram below shows too many devices performing poorly (low P
 
 ![Surveyor Bucket Devices - PDR Histogram](images/surveyor_pdr.png)
 
+### Software System Diagram
+
+This site also documents the Surveyor software application. This diagram provides an overview of the parts of the RF Field Surveyor.
+
+![RF Field Surveyor - Software Block Diagram (Containers)](diagrams/structurizr-1-RFFieldSurveyor.png)
+
+The Surveyor currently uses an InfluxDB as the source for all queries and reports.
+
+![RF Field Surveyor - Queries a Measurement inside a InfluxDB Bucket inside an Organization](diagrams/structurizr-1-InfluxDB.png)
