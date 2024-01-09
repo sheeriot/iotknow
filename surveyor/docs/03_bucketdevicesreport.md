@@ -1,5 +1,5 @@
 
-### Bucket Device Form
+## Bucket Device Report
 
 Use this view for viewing all the devices in an InfluxDB Bucket. Links are provided to inspect individual devices with PackGraph (single device packet history view).
 
@@ -11,7 +11,21 @@ This report (BucketDevice View) is executed using an "Asynchronous Task", meanin
 
 Your browser will watch the status of the task then download the results into the web page using AJAX (background web) transactions.
 
-Here is the Web Transaction view of this long running task:
+### Want Rings?
+
+The Bucket Device Report will allow you to set a GPS location and ring size if you want to add rings as markers to the map.
+
+### Report Parameters
+
+The report page first reports back the task status and requested parameters.
+
+![Bucket Device Report - Status/Parameters](images/surveyor_bucketdevicereportrequest.png)
+
+A URL is provided for sharing. The **bookmark-able** URL uses Zulu time to ensure the report parameters are consistent, regardless of the timezone of the requester. These bookmark-able URLs can be used to generate periodic reports.
+
+### Report Generation
+
+While that task executes, let's peek under the hood. Here is a Web Transaction view of this long running task:
 
 ![BucketDeviceReport - Transactions](diagrams/bucketDevicesReport.png)
 
@@ -25,7 +39,7 @@ Fixed Location of Device (FLoD) Data, I made that up for fixed devices, can be p
 
 **Note:** Only devices with locations will appear on the maps. All devices should appear in the tables.
 
-### Report Sections
+### Sections
 
 The BucketDevices report includes the following sections
 - **Report Summary** - top level summary data
