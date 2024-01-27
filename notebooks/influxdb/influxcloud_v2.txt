@@ -1,0 +1,53 @@
+influx config create -u <IP/URL>:8086 -t <All-ACCESS-TOKEN> -o <ORGANISATION> -a
+-----------
+
+# Create a retention policy so you can query the DB.
+influx v1 dbrp create -db radiobridge0 --bucket-id 9943f69c5eee7c0d --default
+
+influx v1 dbrp create --bucket-id cd4a5456894949c5  --db telkom-pdam --rp telkom-pdam --default
+
+influx v1 shell
+use iotdbv2
+
+select count(*) from xirka
+select dev_eui,time,f_count from xirka order by time desc limit 1
+
+
+
+select first(f_count) as f_count,time,dev_eui from xirka
+
+---V1 Query--
+SELECT f_count,gateway_eui,rssi,snr,frequency,spreading_factor,rcv_time, frame_size, message_type, payload_base64 
+  FROM konahome
+  WHERE dev_eui = '647fda0000000e78'
+  and time > '2022-11-24 06:00:00' and time < '2022-11-24 13:30:00'
+
+-----
+
+
+---V2 Sample ---
+from influxdb_client import InfluxDBClient
+
+# You can generate a Token from the "Tokens Tab" in the UI
+token = "<INFLUX_TOKEN>"
+org = "xxx.yyy@example.com"
+bucket = "bucket2"
+
+with InfluxDBClient(url="https://eastus-1.azure.cloud2.influxdata.com", token=token, org=org) as client:
+    query = """option v = {timeRangeStart: -1h, timeRangeStop: now()}
+
+from(bucket: "bucket2")
+    |> range(start: v.timeRangeStart, stop: v.timeRangeStop)
+    |> filter(fn: (r) => r["_measurement"] == "konahome")
+    |> filter(
+        fn: (r) =>
+            r["_field"] == "bandwidth" 
+            or r["_field"] == "battery_voltage" 
+            or r["_field"] ==  "counter_up",
+    )
+"""
+    tables = client.query_api().query(query, org=org)
+    for table in tables:
+        for record in table.records:
+            print(record)
+---------------

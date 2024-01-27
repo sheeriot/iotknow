@@ -1,0 +1,13 @@
+(<Color #3d85cc>, -137)
+(<Color #3b6ecf>, -134)
+(<Color #3a55d1>, -132)
+(<Color #383bd3>, -129)
+(<Color #4e37d6>, -126)
+(<Color #6735d8>, -118)
+(<Color #8234db>, -110)
+(<Color #9e32dd>, -100)
+(<Color #bb31e0>, -90)
+(<Color #d92fe2>, -80)
+(<Color #e42ed0>, -70)
+(<Color #e72cb3>, -60)
+(<Color #e92b96>, -50)]

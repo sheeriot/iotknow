@@ -1,0 +1,61 @@
+docker-compose -f /opt/docker/iotdash/docker-compose.yml exec   influxdb influx -database 'iotdashdb'   -execute 'select * from oxit where time < "2022-08-06"'   -format 'csv' -precision rfc3339
+
+influx -database 'iotdashdb' -execute 'select * from oxit where time < '2022-08-06' -format 'csv'
+
+
+# Get Repo Clone
+cat ~/.ssh/id_ed25519.pub
+git clone git@github.com:krisdthompson/surveyor.git
+
+# setup Override file softlink for environment.
+ln -s docker-compose-prod.override.yml docker-compose.override.yml
+
+# setup ~/env/django.env
+
+# new branch and push
+git checkout -b feature-infra-newcloud
+git push --set-upstream origin feature-infra-newcloud
+
+
+# Setup Nginx and Proxy
+cp nginx/proxy-surveyor.conf ../surveyor/proxy-surveyor.conf
+
+# Database for Container 
+
+docker inspect surveyor-prod_surveyor_1
+
+docker volume inspect surveyor-prod_local-db
+* "Mountpoint": "/var/lib/docker/volumes/surveyor-prod_local-db/_data",
+* "Name": "surveyor-prod_local-db",
+
+sqlite3 /var/lib/docker/volumes/dev2_local-db/_data/db.sqlite3 "select * from auth_user" > auth_users_20221113.sql
+
+sqlite3 /var/lib/docker/volumes/dev2_local-db/_data/db.sqlite "select * from device_org" > orgs_20221113.sql
+
+awk '/location \/ {/,/}/' 000-default-le-ssl-local.conf
+
+awk '/location \/ {/,/}/' 000-default-le-ssl-local.conf
+
+sed -e '/location \/ {/,/}/d' default 
+
+cp compose-env.sample .env
+
+# Remove all but current local branch
+git branch -D $(git branch)
+# delete all branches except "trunk"
+git branch | grep -v "trunk" | xargs git branch -D
+
+# Remove origin branches not at origin
+git remote prune origin 
+
+# remove matching lines in a yaml file 
+sed -i '/v2:/d' device_sources.yaml
+
+# repsonse time for a web server
+curl 'https://surveyor.everynet.com/' -s -o /dev/null -w  "%{time_starttransfer}\n"
+
+# more time stats with curl
+curl -w "Connect time: %{time_connect}\nTime to first byte: %{time_starttransfer}\nTotal: %{time_total}\n" -o /dev/null -sL https://surveyor-qa.brazil.everynet.com
+  Connect time: 0.297977
+  Time to first byte: 0.666824
+  Total: 0.667047

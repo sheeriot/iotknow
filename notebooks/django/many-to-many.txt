@@ -1,0 +1,27 @@
+#User
+#
+#Org
+#  many-to-many Users
+
+from django.db import models
+from device.models import EndNode,Org
+from django.contrib.auth.models import User
+from accounts.models import Person
+
+#u=User.objects.get(username='kris')
+p=Person.objects.get(username='kris')
+
+avd=Org.objects.get(name='Austin Voice Data')
+
+avd.users
+k.org_set.all() #<- queryset
+k.org_set.all().get() # if one
+
+loids=list(u.org_set.all().values_list('id',flat=True))
+nodes=EndNode.objects.filter(org__in=loids)
+
+===============
+p=Person.objects.get(username='kris')
+p.orgs()
+p.orgs_list() #<- array of IDs
+p.endnodes() # <- queryset

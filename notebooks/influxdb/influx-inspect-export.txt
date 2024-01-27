@@ -1,0 +1,11 @@
+Sample:
+
+influx_inspect export -database iotdashdb \
+  -datadir /var/lib/influxdb/data \
+  -waldir /var/lib/influxdb/wal \
+  -measurement-filter konahome \
+  -end 2022-12-04T21:07:14-05:00 \
+  -out iotdash-konahome-20221207.lineprotocol
+
+
+

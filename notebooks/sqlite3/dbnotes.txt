@@ -1,0 +1,38 @@
+# use sqlite3 command on db file (i.e. db.sqlite3) 
+sqlite3 db.sqlite3 ".dump device_endnode"
+
+#  show tables
+sqlite3 db.sqlite3 ".tables"
+
+# find / copy DB file to inspect.
+docker volume ls
+
+docker volume inspect surveyor1_local-db
+[
+    {
+        "CreatedAt": "2022-12-26T13:42:20Z",
+        "Driver": "local",
+        "Labels": {
+            "com.docker.compose.project": "surveyor1",
+            "com.docker.compose.version": "1.29.2",
+            "com.docker.compose.volume": "local-db"
+        },
+        "Mountpoint": "/var/lib/docker/volumes/surveyor1_local-db/_data",
+        "Name": "surveyor1_local-db",
+        "Options": null,
+        "Scope": "local"
+    }
+]
+
+# cp file local
+sudo cp /var/lib/docker/volumes/surveyor1_local-db/_data/db.sqlite3 ~/surveyor_db.20221226
+sudo chown kris:kris ~/surveyor_db.20221226
+sqlite3 ~/surveyor_db.20221226 ".tables"
+$ sqlite3 ~/surveyor_db.20221226 ".tables"
+auth_group                  device_influxsource       
+auth_group_permissions      device_org                
+auth_permission             device_org_users          
+auth_user                   django_admin_log          
+auth_user_groups            django_content_type       
+auth_user_user_permissions  django_migrations         
+device_endnode              django_session
