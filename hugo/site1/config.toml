@@ -1,0 +1,6 @@
+baseURL = 'http://hugo.kttex.com/'
+languageCode = 'en-us'
+title = 'Fools with Tools'
+
+theme = 'ananke'
+disableKinds = ["taxonomy", "taxonomyTerm"]

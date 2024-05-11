@@ -1,1 +1,5 @@
 .structurizr
+
+/hugo/*/resources/*
+/hugo/*/public/*
+/hugo/*/themes/*
