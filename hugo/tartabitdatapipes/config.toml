@@ -1,2 +1,9 @@
 baseURL = 'http://hugo.kttex.com/'
 languageCode = 'en-us'
+title = 'Fools with Tools'
+theme = 'ananke'
+
+[params]
+  subtitle = 'adventures in connectivity'
+  [params.contact]
+    email = 'info@austinvoicedata.com'

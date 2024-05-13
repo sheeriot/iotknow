@@ -1,7 +1,0 @@
-title = 'Fools with Tools'
-theme = 'ananke'
-[params]
-  subtitle = 'adventures in connectivity'
-  [params.contact]
-    email = 'info@austinvoicedata.com'
-
