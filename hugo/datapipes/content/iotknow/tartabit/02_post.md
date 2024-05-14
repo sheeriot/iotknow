@@ -4,8 +4,6 @@ date = 2024-05-10
 draft = false
 +++
 
-# Create Post Trigger (Tartabit)
-
 DocSet:
 
 * [Overview](../00_overview)
@@ -27,7 +25,7 @@ This page provides details to complete the following tasks:
 * record the DevEUI and Gateway as the "tag_set" for publishing to InfluxDB
 * record all other data to be stored using the field_set object (dictionary)
 * use the tags available to enrich the data recorded
-* capure the LoRaWAN data payload to the **Decode** trigger for decoding 
+* capure the LoRaWAN data payload to the **Decode** trigger for decoding
 * call the **Decode** trigger with the `exec.now` function
 
 ![Tartabit Data Pipeline - Components](../diagrams/structurizr-1-tartabit_CONTAINERS.png)
@@ -42,7 +40,7 @@ The Post Trigger will receive the inbound data from the Everynet LNS. Here you c
 
 This example includes processing of tags for site_name and site_room, and pluscode for location.
 
-```
+```javascript
 // Setup for InfluxDB
 // two "tags", aka primary index fields
 // all other values are put into field_set

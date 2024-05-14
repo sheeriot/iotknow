@@ -4,8 +4,6 @@ date = 2024-05-10
 draft = false
 +++
 
-# Create Save Trigger (Tartabit)
-
 DocSet:
 
 * [Overview](../00_overview)
@@ -23,7 +21,6 @@ Purpose of this page:
 
 This page provides details to complete the following tasks:
 
-
 * create the Tartabit IoT-Bridge **Save** trigger to publish the data record to InfluxDB
 
 ![Tartabit Data Pipeline - Components](../diagrams/structurizr-1-tartabit_CONTAINERS.png)
@@ -38,7 +35,7 @@ The **Save** trigger will call the InfluxDB service to store the device data rec
 
 This section provides the code used for the Radio Bridge sensors used in this example.
 
-```
+```javascript
 var tag_set = event.data.data.tag_set;
 var field_set = event.data.data.field_set;
 

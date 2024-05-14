@@ -1,10 +1,12 @@
 +++
-title = 'Overview'
-date = 2024-05-10
+title = 'Tartabit IoT-Bridge Setup Overview'
+date = 2024-05-01
 draft = false
+weight = 10
+aliases = ['/tartabit']
+[params]
+    author = 'Kris Thompson'
 +++
-
-# Overview
 
 DocSet:
 

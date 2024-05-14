@@ -4,11 +4,9 @@ date = 2024-05-10
 draft = false
 +++
 
-# LoRaWAN Network Server (LNS)
-
 DocSet:
 
-* [Overview](../00_overview)
+* [Overview](../overview)
 * [Setup LNS Service](../01_lns) &nbsp;&nbsp; **&lt;- you are here**
 * [Create Post Trigger](../02_post)
 * [Create Decode Trigger](../03_decode)
@@ -27,7 +25,7 @@ This page provides details to complete the following tasks:
 * create a Filter on the Everynet LNS to define forwarded traffic
 * create a connection on the LNS to forward to Tartabit based on the Filter
 
-![Tartabit Data Pipeline - Components](../diagrams/structurizr-1-tartabit_CONTAINERS.png)
+![Tartabit Data Pipeline - Components](../structurizr-1-tartabit_CONTAINERS.png)
 
 ## Configure the Tartabit Service for the LNS
 
@@ -35,7 +33,7 @@ The LNS will use an HTTP to a webhook address to forward LoRaWAN traffic to the 
 
 Here is an example of a configured service for a LoRaWAN Network Server using HTTP Post.
 
-![Tartabit Data Pipeline - LNS Service](../images/tartabit-service-lns.png)
+![Tartabit Data Pipeline - LNS Service](../tartabit-service-lns.png)
 
 The Webhook secret needs to be unique (avoid duplicating existing services unless you modify the webhook).
 
@@ -47,7 +45,7 @@ On the Everynet LoRaWAN Network Server (LNS), the best way to create a filter fo
 
 In this application we are only processing uplinks. The options allow us to see all received frames, RF signal/noise performance, and leverage the device tags.
 
-![Everynet LNS - Filter by Tag](../images/everynet-lns-filter.png)
+![Everynet LNS - Filter by Tag](../everynet-lns-filter.png)
 
 Tip: If your device is online, be sure (only) your targetted traffic is showing in the Live stream as shown above.
 
@@ -57,6 +55,6 @@ Keep the Filter ID to use in the HTTP Connection definition.
 
 Use the Filter ID, and the URL for the Tartabit IoT-Bridge, to forward the uplink traffic for processing.
 
-![Everynet LNS - HTTP Connection](../images/everynet-lns-connection.png)
+![Everynet LNS - HTTP Connection](../everynet-lns-connection.png)
 
 Be sure the Service comes ONLINE. Refresh the Status as needed.

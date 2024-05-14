@@ -4,8 +4,6 @@ date = 2024-05-10
 draft = false
 +++
 
-# Setup InfluxDB Service (Tartabit)
-
 DocSet:
 
 * [Overview](../00_overview)
