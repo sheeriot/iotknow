@@ -1,0 +1,13 @@
+services:
+
+  hugo:
+    build:
+      context: .
+      args:
+        - OWNER=kris
+    # command: server --bind=0.0.0.0
+    volumes:
+      - ./site1:/src
+    ports:
+      - 1313:1313
+
