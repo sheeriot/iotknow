@@ -1,17 +1,21 @@
 +++
 title = 'Create Save Trigger (Tartabit)'
-date = 2024-05-10
+date = 2024-05-07
 draft = false
+weight = 6
+aliases = ['/tartabit-save']
+[params]
+    author = 'Kris Thompson'
 +++
 
-DocSet:
+Doc Set: Tartabit Data Pipeline
 
-* [Overview](../00_overview)
-* [Setup LNS Service](../01_lns)
-* [Create Post Trigger](../02_post)
-* [Create Decode Trigger](../03_decode)
-* [Create Save Trigger](../04_save) &nbsp;&nbsp; **&lt;- you are here**
-* [Setup InfluxDB Service](../05_influxdb)
+* [Tartabit Data Pipes - Overview](/tartabit-overview)
+* [Setup LNS Service](/tartabit-lns)
+* [Create Post Trigger](/tartabit-post)
+* [Create Decode Trigger](/tartabit-decode)
+* [Create Save Trigger](/tartabit-save) &nbsp;&nbsp; **&lt;- you are here**
+* [Setup InfluxDB Service](/tartabit-influxdb)
 
 Purpose of this page:
 

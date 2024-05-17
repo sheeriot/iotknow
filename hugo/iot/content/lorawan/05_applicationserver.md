@@ -3,18 +3,18 @@ title = 'LoRaWAN Application Server'
 date = 2024-04-20
 draft = false
 weight = 12
-aliases = ['/applicationserver']
+aliases = ['/lorawan-applicationserver']
 [params]
     author = 'Kris Thompson'
 +++
 
-DocSet:
+Doc Set: LoRaWAN Overview
 
-* [LoRaWAN Overview](../01_lorawan)
-* [LoRaWAN Devices](../02_device)
-* [LoRaWAN Gateways](../03_gateway)
-* [LoRaWAN Network Server](../04_networkserver)
-* [LoRaWAN Application Server](../05_applicationserver) &nbsp;&nbsp; **&lt;- you are here**
+* [LoRaWAN Overview](/lorawan-overview)
+* [LoRaWAN Devices](/lorawan-device)
+* [LoRaWAN Gateways](/lorawan-gateway)
+* [LoRaWAN Network Server](/lorawan-networkserver)
+* [LoRaWAN Application Server](/lorawan-applicationserver) &nbsp;&nbsp; **&lt;- you are here**
 
 ### LoRaWAN Application Server - Reference Diagram
 

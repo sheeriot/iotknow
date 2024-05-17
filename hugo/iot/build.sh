@@ -1,4 +1,4 @@
 #!/bin/bash
 
-hugo --baseURL http://hugo.kttex.com
+hugo --baseURL http://iot.austinvoicedata.com
 

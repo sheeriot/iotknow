@@ -17,5 +17,5 @@ This site captures IoT Technology Know-How for sharing.
 
 Documentation Sets (aka DocSets):
 
-* [LoRaWAN Overview](../lorawan/01_lorawan)
-* [Tartabit Data Pipes](../tartabit/00_overview)
+* [LoRaWAN Overview](/lorawan-overview)
+* [Tartabit Data Pipes](/tartabit-overview)

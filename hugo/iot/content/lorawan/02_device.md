@@ -3,18 +3,18 @@ title = 'LoRaWAN Devices'
 date = 2024-03-30
 draft = false
 weight = 8
-aliases = ['/lorawandevices']
+aliases = ['/lorawan-device']
 [params]
     author = 'Kris Thompson'
 +++
 
-DocSet:
+Doc Set: LoRaWAN Overview
 
-* [LoRaWAN Overview](../01_lorawan)
-* [LoRaWAN Devices](../02_device) &nbsp;&nbsp; **&lt;- you are here**
-* [LoRaWAN Gateways](../03_gateway)
-* [LoRaWAN Network Server](../04_networkserver)
-* [LoRaWAN Application Server](../05_applicationserver)
+* [LoRaWAN Overview](/lorawan-overview)
+* [LoRaWAN Devices](/lorawan-device) &nbsp;&nbsp; **&lt;- you are here**
+* [LoRaWAN Gateways](/lorawan-gateway)
+* [LoRaWAN Network Server](/lorawan-networkserver)
+* [LoRaWAN Application Server](/lorawan-applicationserver)
 
 ## Devices
 

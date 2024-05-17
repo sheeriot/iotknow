@@ -1,17 +1,21 @@
 +++
 title = 'Setup InfluxDB Service (Tartabit)'
-date = 2024-05-10
+date = 2024-05-12
 draft = false
+weight = 8
+aliases = ['/tartabit-influxdb']
+[params]
+    author = 'Kris Thompson'
 +++
 
-DocSet:
+Doc Set: Tartabit Data Pipeline
 
-* [Overview](../00_overview)
-* [Setup LNS Service](../01_lns)
-* [Create Post Trigger](../02_post)
-* [Create Decode Trigger](../03_decode)
-* [Create Save Trigger](../04_save)
-* [Setup InfluxDB Service](../05_influxdb) &nbsp;&nbsp; **&lt;- you are here**
+* [Tartabit Data Pipes - Overview](/tartabit-overview)
+* [Setup LNS Service](/tartabit-lns)
+* [Create Post Trigger](/tartabit-post)
+* [Create Decode Trigger](/tartabit-decode)
+* [Create Save Trigger](/tartabit-save)
+* [Setup InfluxDB Service](/tartabit-influxdb) &nbsp;&nbsp; **&lt;- you are here**
 
 Purpose of this page:
 
