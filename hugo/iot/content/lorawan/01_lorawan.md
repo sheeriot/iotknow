@@ -49,7 +49,7 @@ LoRa technology and the LoRaWAN protocol enables devices to work at long distanc
 
 ##### Shared RF Spectrum
 
-As LoRaWAN communications a shared medium (RF Spectrum), channel capacity may be shared by many devices. Large service deployments can result in channel capacity issues. High density wireless requires lower transmit levels and higher gateway capacities.
+As LoRaWAN communications uses a shared medium (RF Spectrum), channel capacity may be shared by many devices. Large service deployments can result in channel capacity issues. High density wireless requires lowering transmit levels to allow for more gateways creating smaller "cells" (coverage areas).
 
 #### Network Server
 
