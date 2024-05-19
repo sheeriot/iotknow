@@ -2,8 +2,9 @@
 title = 'LoRaWAN Network Server'
 date = 2024-04-28
 draft = false
-weight = 12
+weight = 4
 aliases = ['/lorawan-networkserver']
+featured_image = '/lorawan/diagrams/structurizr-1-networkserver_CONTAINERS.png'
 [params]
     author = 'Kris Thompson'
 +++
@@ -21,5 +22,3 @@ Doc Set: LoRaWAN Overview
 aka LNS
 
 ![LoRaWAN Network Server (LNS) - Reference Diagram](../diagrams/structurizr-1-networkserver_CONTAINERS.png)
-
-Hi Mom

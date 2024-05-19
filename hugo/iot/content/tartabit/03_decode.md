@@ -2,8 +2,11 @@
 title = 'Create Decode Trigger (Tartabit)'
 date = 2024-05-10
 draft = false
-weight = 8
+weight = 11
 aliases = ['/tartabit-decode']
+
+featured_image = '/tartabit/images/tartabit-trigger-decode.png'
+
 [params]
     author = 'Kris Thompson'
 +++

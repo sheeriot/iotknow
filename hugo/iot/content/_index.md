@@ -1,17 +1,14 @@
 ---
 title: "The AVD-IoT Files"
-draft: false
-
 description: "Documentation to Support IoT Deployments"
+weight: 10
+draft: false
+menus: 'main'
 
-# 1. To ensure Netlify triggers a build on our exampleSite instance, we need to change a file in the exampleSite directory.
-
-theme_version: '2.8.2'
+motm: 'Welcome to the Den!'
 
 cascade:
   featured_image: '/images/graf1_housetemper1.png'
-
-draft: false
 ---
 This site captures IoT Technology Know-How for sharing.
 

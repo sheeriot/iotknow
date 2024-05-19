@@ -6,6 +6,8 @@ weight = 10
 aliases = ['/tartabit-post']
 [params]
     author = 'Kris Thompson'
+
+featured_image = '/tartabit/images/tartabit-trigger-post.png'
 +++
 
 Doc Set: Tartabit Data Pipeline

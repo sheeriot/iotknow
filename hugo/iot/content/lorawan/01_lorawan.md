@@ -1,9 +1,11 @@
 +++
 title = 'LoRaWAN Overview'
-date = 2024-04-01
+date = 2024-05-10
 draft = false
-weight = 11
+weight = 1
 aliases = ['/lorawan-overview']
+featured_image = '/lorawan/diagrams/structurizr-1-LoRaWAN.png'
+
 [params]
     author = 'Kris Thompson'
 +++

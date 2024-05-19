@@ -2,8 +2,11 @@
 title = 'Tartabit IoT-Bridge Setup Overview'
 date = 2024-05-01
 draft = false
-weight =20
+weight = 1
 aliases = ['/tartabit-overview']
+
+featured_image = '/tartabit/diagrams/structurizr-1-TartabitLandscape.png'
+
 [params]
     author = 'Kris Thompson'
 +++
@@ -16,7 +19,6 @@ Doc Set: Tartabit Data Pipeline
 * [Create Decode Trigger](/tartabit-decode)
 * [Create Save Trigger](/tartabit-save)
 * [Setup InfluxDB Service](/tartabit-influxdb)
-
 
 Purpose of this Document Set:
 

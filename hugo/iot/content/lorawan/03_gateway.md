@@ -1,9 +1,10 @@
 +++
 title = 'LoRaWAN Gateways'
-date = 2024-03-23
+date = 2024-04-21
 draft = false
-weight = 11
+weight = 3
 aliases = ['/lorawan-gateway']
+featured_image = '/lorawan/diagrams/structurizr-1-gateway_CONTAINERS.png'
 [params]
     author = 'Kris Thompson'
 +++

@@ -1,8 +1,11 @@
 +++
 title = 'Setup Tartabit LNS Source'
 date = 2024-05-10
+weight = 5
 draft = false
 aliases = ['/tartabit-lns']
+
+featured_image = '/tartabit/images/everynet-lns-filter.png'
 
 [params]
     author = 'Kris Thompson'

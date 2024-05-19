@@ -2,8 +2,11 @@
 title = 'Create Save Trigger (Tartabit)'
 date = 2024-05-07
 draft = false
-weight = 6
+weight = 12
 aliases = ['/tartabit-save']
+
+featured_image = '/tartabit/images/tartabit-trigger-save.png'
+
 [params]
     author = 'Kris Thompson'
 +++

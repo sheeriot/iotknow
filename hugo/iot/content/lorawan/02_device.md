@@ -2,8 +2,9 @@
 title = 'LoRaWAN Devices'
 date = 2024-03-30
 draft = false
-weight = 8
+weight = 2
 aliases = ['/lorawan-device']
+featured_image = '/lorawan/diagrams/structurizr-1-device_CONTAINERS.png'
 [params]
     author = 'Kris Thompson'
 +++

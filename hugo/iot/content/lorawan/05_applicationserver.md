@@ -1,9 +1,10 @@
 +++
 title = 'LoRaWAN Application Server'
-date = 2024-04-20
+date = 2024-04-22
 draft = false
-weight = 12
+weight = 5
 aliases = ['/lorawan-applicationserver']
+featured_image = '/lorawan/diagrams/structurizr-1-applicationserver_CONTAINERS.png'
 [params]
     author = 'Kris Thompson'
 +++

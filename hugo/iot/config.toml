@@ -1,3 +1,5 @@
+sectionPagesMenu = "main"
+
 baseURL = 'http://iot.austinvoicedata.com/'
 languageCode = 'en-us'
 title = 'IoT Know-How'
@@ -7,3 +9,9 @@ theme = 'ananke'
   subtitle = 'adventures in connectivity'
   [params.contact]
     email = 'info@austinvoicedata.com'
+
+[menu]
+[[menu.main]]
+  name = 'Visit AVD'
+  url = 'https://austinvoicedata.com'
+  weight = 99

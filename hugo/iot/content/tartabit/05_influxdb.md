@@ -1,11 +1,15 @@
 +++
-title = 'Setup InfluxDB Service (Tartabit)'
+title = 'Setup InfluxDB Service'
 date = 2024-05-12
 draft = false
-weight = 8
-aliases = ['/tartabit-influxdb']
+weight = 7
+
+featured_image = '/tartabit/images/influxdb-bucket.png'
+
 [params]
     author = 'Kris Thompson'
+
+aliases = ['/tartabit-influxdb']
 +++
 
 Doc Set: Tartabit Data Pipeline
