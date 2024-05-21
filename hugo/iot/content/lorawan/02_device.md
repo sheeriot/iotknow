@@ -5,6 +5,7 @@ draft = false
 weight = 2
 aliases = ['/lorawan-device']
 featured_image = '/lorawan/diagrams/structurizr-1-device_CONTAINERS.png'
+
 [params]
     author = 'Kris Thompson'
 +++

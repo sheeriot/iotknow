@@ -4,10 +4,13 @@ date = 2024-05-07
 draft = false
 weight = 10
 aliases = ['/tartabit-post']
+
+featured_image = '/tartabit/images/tartabit-trigger-post.png'
+
 [params]
     author = 'Kris Thompson'
 
-featured_image = '/tartabit/images/tartabit-trigger-post.png'
+
 +++
 
 Doc Set: Tartabit Data Pipeline
