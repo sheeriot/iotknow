@@ -1,5 +1,5 @@
 .structurizr
-
+.DS_Store
 /hugo/*/resources/*
 /hugo/*/public/*
 /hugo/*/themes/*
